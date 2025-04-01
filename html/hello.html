@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+    <style>
+        .red{
+            color:red;
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwind.config.js"></script>
+</head>
+
+<body class="ml-5 mt-2">
+    <h1 class="text-3xl font-bold underline p-2 
+    text-pylon mb-3 bg-clifford w-1/6 rounded-xl">Hello</h1>
+    <header class="text-red-500">Header</header>
+    <nav data-id="nav">Nav</nav>
+    <section class="bg-black text-white p-3">Section</section>
+    <aside>Aside</aside>
+
+    <form action="" id="frm" name="frm" method="POST"
+    class="border-2 border-green-500 p-3 mt-3">
+        <div class="md:flex md:gap-2">
+            <input class="border-2 border-gray-600 rounded-md m-2 bg-gray-100 focus:outline-none w-1/2 sm:w-full sm:mb-3" type="email" id="email" placeholder="Email..">
+            <input class="border-2 border-gray-600 rounded-md m-2 bg-gray-100 w-1/2 sm:w-full" type="password" id="pw" placeholder="Password..">  
+        </div>
+        <div class="flex justify-around"> 
+            <button class="bg-gray-400 hover:bg-gray-600 text-white px-2 rounded-md" type="reset">Reset</button>
+            <button class="bg-clifford hover:bg-red-700 hover:text-gray-200 text-white px-2 rounded-md" type="delete">Delete</button>
+            <button class="bg-sky-400 hover:bg-sky-600 text-white px-2 rounded-md shadow-md" type="submit">Submit</button>
+        </div>
+    </form>
+    
+    <div>Yesterday is history.</div>
+    <div><strong>Tomorrow</strong> is mystery.
+        <span id="upper">But today is a gift.
+            <span class="inner-span">Inner Span</span>
+        </span>
+    </div>
+    
+    <div>That's why it's called the present.</div>
+    <ul class="list-decimal list-inside">
+        <li class= "first:text-red-500 flex justify-between mr-24">
+            <img class="rounded-full" src="images/author-01.jpg" alt="blog-author-2">
+            <div class="bg-blue-500">123</div>
+            111
+            <small class="">
+                remark..
+                <small class="">remark..</small>
+            </small>
+            
+        </li>
+        <li class="first:bg-black">222</li>
+        <li class="last:bg-black">333</li>
+    </ul>
+    
+    <!-- <div class="mt-3">
+        <table class="table-auto w-9/12 mx-auto">
+            <thead>
+                tr.bg-blue
+            </thead>
+        </table>
+    </div> -->
+
+    <footer>Footer</footer>
+</body>
+</html>
