@@ -1,3 +1,4 @@
+
 //연습문제 1
 for(let i = 0.1; i < 1; i = i + 0.1) console.log(Math.round(i *10) / 10);
 for(let i = 0.1; i < 1; i = i + 0.1) console.log(+i.toFixed(1));
@@ -75,3 +76,21 @@ function calc(signFlag, ...args){
     // addPoints(10.34, 200.226) // 210.566
     // addPoints(0.143, -10.28) // -10.137
     // addPoints(0.143, -10) // -9.857
+    console.log("-----------------");
+
+//연습문제 5
+const prices = [10.34, 'xxx', 5.678, null, 20.9, 
+    1.005, 0, 15, undefined, 0.5];
+const priLen = prices.length.toString(); //10
+let sum = 0;
+let div = 0;
+for(let i=0; i<priLen; i+=1){
+    let toNum = parseFloat(prices[i]);
+    if(!Number.isNaN(toNum)){
+        sum += toNum;
+        //console.log(toNum);
+        div += 1;
+    }
+}
+const avg = Math.round(sum / div * 100) / 100;
+console.log("🚀 ~ avg:", avg);
