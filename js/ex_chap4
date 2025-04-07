@@ -80,17 +80,18 @@ function calc(signFlag, ...args){
 
 //연습문제 5
 const prices = [10.34, 'xxx', 5.678, null, 20.9, 
-    1.005, 0, 15, undefined, 0.5];
+    1.005, 0, 19, undefined, 0.5];
 const priLen = prices.length.toString(); //10
 let sum = 0;
-let div = 0;
+let cnt = 0;
+let div = 100;
 for(let i=0; i<priLen; i+=1){
     let toNum = parseFloat(prices[i]);
     if(!Number.isNaN(toNum)){
         sum += toNum;
         //console.log(toNum);
-        div += 1;
+        cnt += 1;
     }
 }
-const avg = Math.round(sum / div * 100) / 100;
+const avg = Math.round(sum / cnt * div) / div;
 console.log("🚀 ~ avg:", avg);
