@@ -1,0 +1,77 @@
+//연습문제 1
+for(let i = 0.1; i < 1; i = i + 0.1) console.log(Math.round(i *10) / 10);
+for(let i = 0.1; i < 1; i = i + 0.1) console.log(+i.toFixed(1));
+console.log("-----------------");
+
+//연습문제 2
+for(let i = 1; i <= 10; i += 1) {
+    //1로 나누었을때 나머지 없으면 정수
+    if(!Number.isInteger(Math.sqrt(i))){
+        console.log(Math.floor(Math.sqrt(i) * 1000) / 1000)
+    }
+}
+console.log("-----------------");
+    
+//연습문제 3
+const today = new Date();
+const utc = today.getTime() + (today.getTimezoneOffset() * 60 * 1000);
+const koreaTimeDiff = 9 * 60 * 60 * 1000;
+const korNow = new Date(utc+koreaTimeDiff);
+const w = korNow.getDay();
+console.log(w);
+const WEEK_NAMES = ['일', '월', '화', '수', '목', '금', '토'];
+console.log('오늘은 ' + WEEK_NAMES[w] + '요일입니다.');
+console.log("-----------------");
+
+//연습문제 4
+function addPoints1(a,b){
+    const alen = Math.abs(a).toString().length -1;
+    const blen = Math.abs(b).toString().length -1;
+
+    const num = Math.max(alen, blen);
+    const gop = 10 ** num;
+
+    const sum1 = a * gop + b * gop;
+
+    const sum2 = Math.floor(sum1);
+    const result = sum1 / gop;
+
+    console.log(result);    
+}
+//여러개 더하기
+function addPoints2(...args){
+    p = 10 ** 10;
+    let ret = 0;
+    for(const n of args){
+        ret += Math.trunc(n * p);
+    }
+    ret = ret / p;
+    console.log("🚀 ~ addPoints ~ ret:", ret)    
+}
+
+//뺄셈 추가
+function subPoints(...args){
+    calc(-1, ...args);
+}
+
+function addPoints(...args){
+    calc(1, ...args);
+}
+
+function calc(signFlag, ...args){
+    p = 10 ** 10;
+    let ret = 0;
+    for(const [i, n] of Object.entries(args)){
+        const signNum = i != 0 ? n * signFlag : n;
+        ret += Math.trunc(signNum * p);
+    }
+    ret = ret / p;
+    console.log(args.join(signFlag > 0 ? '+' : '-'), '=', ret);    
+}
+
+    addPoints(0.21354, 0.1, 0.2) // 0.31354
+    subPoints(0.14, 0.28) // 0.42
+    // addPoints(0.34, 0.226) // 0.566
+    // addPoints(10.34, 200.226) // 210.566
+    // addPoints(0.143, -10.28) // -10.137
+    // addPoints(0.143, -10) // -9.857
