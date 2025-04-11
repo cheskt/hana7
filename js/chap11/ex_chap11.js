@@ -15,6 +15,9 @@ const dog = {
   },
 };
 
+const { showMyName } = dog;
+showMyName();
+
 // dog.whatsYourName();
 
 // const weeks = ['일', '월', '화', '수', '목', '금', '토'];
@@ -180,3 +183,30 @@ const intl = setInterval(() => {
   console.log("call", cntx, getNextWeek());
   if ((cntx += 1) === 7) clearInterval(intl);
 }, 1000); // FIXME: 1000으로 변경할 것!!
+
+// class Dog {
+//   constructor(name) {
+//     this.name = name;
+//   }
+
+//   getName() {
+//     return this.name;
+//   }
+
+//   fn() {
+//     return 'FN';
+//   }
+
+//   static sfn() {
+//     // Dog.sfn
+//     return 'SFN';
+//   }
+// }
+// const lucy = new Dog('Lucy');
+// const { sfn } = Dog;
+// const { fn: fnorg } = Dog.prototype;
+// const { name: aa, fn: fnnn, getName } = lucy;
+
+// console.log(aa, sfn(), fnorg(), fnnn(), getName); // ?
+// // getName();
+// console.log('===>', getName.apply(lucy)); // ?
