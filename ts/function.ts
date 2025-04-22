@@ -90,3 +90,144 @@ function ntfn(this: void, x: string) {
 
 tfn.bind({ id: 1 })("X");
 ntfn("Y");
+
+let u: Object = { id: 1 };
+u = {
+  toString() {
+    return "1";
+  },
+};
+u = [];
+u = function () {};
+
+let u2: {};
+u2 = {
+  toString() {
+    return 1;
+  },
+};
+u2 = u;
+
+let u3: object;
+u2 = {};
+
+const t = setTimeout(console.log, 1000, "1");
+
+const a: number[] = [1, 2, 3];
+a[100]?.toFixed(); //noUncheckedIndexedAccess
+
+const b = [4, 5, "6"];
+
+const c = [...a, ...b];
+// const d = a.concat(b);
+
+type A = {
+  name: string;
+  age: number;
+};
+
+type B = {
+  name: string;
+  addr: string;
+};
+
+const onlyA: A[] = [
+  { name: "lim", age: 10 },
+  { name: "hong", age: 20 },
+];
+const onlyB: B[] = [
+  { name: "jang", addr: "Seoul" },
+  { name: "park", addr: "Busan" },
+];
+const aOrB = [...onlyA, ...onlyB];
+// (A|B)[]
+
+const abobj = {
+  name: "Tan",
+  age: 30,
+  addr: "Incheon",
+  x: 1,
+};
+
+let abx: A | B = abobj;
+
+aOrB.push(abobj);
+aOrB.push({ name: "X", age: 20, addr: "xx" });
+
+type IS = {
+  [k: number]: number;
+  [k: symbol]: boolean;
+  [k: string]: string | number;
+};
+
+type IS2 = {
+  [k: number]: string | number;
+  id: number;
+};
+
+const sym1: unique symbol = Symbol("s1");
+let isobj1: IS = { id: "1", name: "Hong", 3: 5, [sym1]: false };
+
+let isobj2: IS2 = { 3: 5, id: 3, 5: 55 };
+
+{
+  type A = { name: string; addr: string };
+  const blockA: A = { name: "Hong", addr: "Pusan" };
+  console.log("🚀 blockA:", blockA);
+}
+
+const outerA: A = { name: "Kim", age: 33 };
+
+function tuple() {
+  const a: [number, string, boolean] = [1, "lim", false];
+
+  let b: [number, string] = [a[0], a[1]];
+  console.log("🚀 b:", b);
+}
+tuple();
+
+const greeting = (greet: "Hi" | "Hello", name: string, age: number) => {
+  console.log(`${greet}~ ${name}, You are ${age}.`);
+
+  return [name, age] as const;
+  // return [name, age];
+};
+
+const gr1 = greeting("Hi", "Hong", 33);
+console.log("🚀 gr1:", gr1[1]);
+
+const tup: [string, number] = ["Kim", 55];
+greeting("Hello", ...tup);
+
+const ary = ["Park", 44];
+// greeting('Hello', ary[0], ary[1]);
+// greeting('Hello', ...ary);
+
+const greeting2 = (
+  greet: "Hi" | "Hello",
+  name: string,
+  age: number
+): [string, number] => {
+  console.log(`${greet}~ ${name}, You are ${age}.`);
+
+  return [name, age];
+  // return [name, age];
+};
+const gr2 = greeting2("Hi", "Hong", 33);
+// gr2[1] = 'zzz';
+const gr3 = [gr2[0], "zzz"];
+console.log("🚀 gr2:", gr2[1], gr3);
+
+// ----------------------
+const arr = [1, 2, 3];
+const arr2: [number, number, number] = [4, 5, 6];
+const arr22 = [4, 5, 6] as const;
+console.log("🚀 arr22:", arr22);
+
+type T1 = [string, number];
+
+type AT1 = [number, string, number];
+type AT2 = [number, T1]; // [number, [string, number]]
+type AT3 = [number, ...T1]; // [number, string, number]
+
+export {};
