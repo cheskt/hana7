@@ -22,3 +22,4 @@ update Emp set address = 'Pusan';
 create table Student (
 	id int auto_increment
 )
+

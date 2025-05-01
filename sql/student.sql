@@ -9,8 +9,11 @@ create table Major (
 insert Major(name) values('철학과');
 insert Major(name) values('컴공과');
 insert Major(name) values('건축과');
+insert Major(name) values('경제학과');
+insert Major(name) values('경영학과');
 
 select * from Major;
+select * from Subject;
 
 USE testdb;
 
@@ -29,4 +32,5 @@ create table Student (
 
 alter table Student modify column name varchar(25) not null comment '학생이름';
 desc Student;
+desc Subject;
 show create table Student;
