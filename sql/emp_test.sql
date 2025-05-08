@@ -143,3 +143,12 @@ set @x = 0;
 call sp;
 
 call sp_emplist(10);
+
+ with DeptMaxSal as
+		 (select d.dname, e.dept, max(salary) maxsal
+			from Emp e inner join Dept d on e.dept = d.id
+			group by dept)
+ select e.dept, DeptMaxSal.dname, e.id, e.ename, e.salary
+	from Emp e inner join DeptMaxsal
+	on e.dept = DeptMaxSal.dept and e.salary = DeptMaxSal.maxsal
+ order by e.dept;
