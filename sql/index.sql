@@ -118,6 +118,27 @@ show create table EmpTest;
 show index from EmpTest;
 select e.*, d.dname from EmpTest e inner join Dept d on e.dept = d.id;
 
+alter table EmpTest partition by range(id)(
+	partition p1 values less than (100),
+    partition p2 values less than (200),
+    partition p3 values less than MAXVALUE
+);
+
+select * from information_schema.partitions where table_name = 'EmpTest';
+
+rename table Emp to EmpBackup;
+rename table EmpTest to Emp;
+
+explain select * from EmpTest where id = 150;
+alter table EmpTest drop partition p2;
+
+insert into EmpTest(id, ename, dept, salary, mobile)
+  select 150, '김150수', dept, salary, '0101234150' from EmpTest where id = 2;
+  
+alter table EmpTest REORGANIZE Partition p3 INTO (
+        partition p2 values less than (200),
+        partition p3 values less than MAXVALUE
+    );
 
 alter table PartiRangeTest drop partition p2;
 

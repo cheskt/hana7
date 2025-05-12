@@ -1,0 +1,198 @@
+# The proper term is pseudo_replica_mode, but we use this compatibility alias
+# to make the statement usable on server versions 8.0.24 and older.
+/*!50530 SET @@SESSION.PSEUDO_SLAVE_MODE=1*/;
+/*!50003 SET @OLD_COMPLETION_TYPE=@@COMPLETION_TYPE,COMPLETION_TYPE=0*/;
+DELIMITER /*!*/;
+# at 4
+#250508 17:06:13 server id 1  end_log_pos 126 CRC32 0xee931abb 	Start: binlog v 4, server v 8.0.42 created 250508 17:06:13
+# Warning: this binlog is either in use or was not closed properly.
+BINLOG '
+9WUcaA8BAAAAegAAAH4AAAABAAQAOC4wLjQyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAEwANAAgAAAAABAAEAAAAYgAEGggAAAAICAgCAAAACgoKKioAEjQA
+CigAAbsak+4=
+'/*!*/;
+# at 126
+#250508 17:06:13 server id 1  end_log_pos 157 CRC32 0xc755067f 	Previous-GTIDs
+# [empty]
+# at 157
+#250508 17:06:45 server id 1  end_log_pos 236 CRC32 0x3ac46837 	Anonymous_GTID	last_committed=0	sequence_number=1	rbr_only=yes	original_committed_timestamp=1746691605110170	immediate_commit_timestamp=1746691605110170	transaction_length=301
+/*!50718 SET TRANSACTION ISOLATION LEVEL READ COMMITTED*//*!*/;
+# original_commit_timestamp=1746691605110170 (2025-05-08 17:06:45.110170 ���ѹα� ǥ�ؽ�)
+# immediate_commit_timestamp=1746691605110170 (2025-05-08 17:06:45.110170 ���ѹα� ǥ�ؽ�)
+/*!80001 SET @@session.original_commit_timestamp=1746691605110170*//*!*/;
+/*!80014 SET @@session.original_server_version=80042*//*!*/;
+/*!80014 SET @@session.immediate_server_version=80042*//*!*/;
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 236
+#250508 17:06:45 server id 1  end_log_pos 313 CRC32 0x85e2f7e1 	Query	thread_id=9	exec_time=0	error_code=0
+SET TIMESTAMP=1746691605/*!*/;
+SET @@session.pseudo_thread_id=9/*!*/;
+SET @@session.foreign_key_checks=1, @@session.sql_auto_is_null=0, @@session.unique_checks=1, @@session.autocommit=1/*!*/;
+SET @@session.sql_mode=1168113696/*!*/;
+SET @@session.auto_increment_increment=1, @@session.auto_increment_offset=1/*!*/;
+/*!\C utf8mb4 *//*!*/;
+SET @@session.character_set_client=255,@@session.collation_connection=255,@@session.collation_server=224/*!*/;
+SET @@session.lc_time_names=0/*!*/;
+SET @@session.collation_database=DEFAULT/*!*/;
+/*!80011 SET @@session.default_collation_for_utf8mb4=255*//*!*/;
+BEGIN
+/*!*/;
+# at 313
+#250508 17:06:45 server id 1  end_log_pos 372 CRC32 0x884d2a68 	Table_map: `testdb`.`test` mapped to number 331
+# has_generated_invisible_primary_key=0
+# at 372
+#250508 17:06:45 server id 1  end_log_pos 427 CRC32 0x9a17fe71 	Write_rows: table id 331 flags: STMT_END_F
+
+BINLOG '
+FWYcaBMBAAAAOwAAAHQBAAAAAEsBAAAAAAEABnRlc3RkYgAEdGVzdAADAw8BAnwAAAEBwAIB4Ggq
+TYg=
+FWYcaB4BAAAANwAAAKsBAAAAAEsBAAAAAAEAAgAD/wAGAAAAA2JiYgUABwAAAANjY2MGcf4Xmg==
+'/*!*/;
+### INSERT INTO `testdb`.`test`
+### SET
+###   @1=6
+###   @2='bbb'
+###   @3=5
+### INSERT INTO `testdb`.`test`
+### SET
+###   @1=7
+###   @2='ccc'
+###   @3=6
+# at 427
+#250508 17:06:45 server id 1  end_log_pos 458 CRC32 0x9a67eb50 	Xid = 1156
+COMMIT/*!*/;
+# at 458
+#250508 17:06:46 server id 1  end_log_pos 537 CRC32 0x93b7d7d9 	Anonymous_GTID	last_committed=1	sequence_number=2	rbr_only=yes	original_committed_timestamp=1746691606283238	immediate_commit_timestamp=1746691606283238	transaction_length=311
+/*!50718 SET TRANSACTION ISOLATION LEVEL READ COMMITTED*//*!*/;
+# original_commit_timestamp=1746691606283238 (2025-05-08 17:06:46.283238 ���ѹα� ǥ�ؽ�)
+# immediate_commit_timestamp=1746691606283238 (2025-05-08 17:06:46.283238 ���ѹα� ǥ�ؽ�)
+/*!80001 SET @@session.original_commit_timestamp=1746691606283238*//*!*/;
+/*!80014 SET @@session.original_server_version=80042*//*!*/;
+/*!80014 SET @@session.immediate_server_version=80042*//*!*/;
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 537
+#250508 17:06:46 server id 1  end_log_pos 623 CRC32 0x42a6259d 	Query	thread_id=9	exec_time=0	error_code=0
+SET TIMESTAMP=1746691606/*!*/;
+BEGIN
+/*!*/;
+# at 623
+#250508 17:06:46 server id 1  end_log_pos 682 CRC32 0xb2b0ed0d 	Table_map: `testdb`.`test` mapped to number 331
+# has_generated_invisible_primary_key=0
+# at 682
+#250508 17:06:46 server id 1  end_log_pos 738 CRC32 0xbd29213b 	Update_rows: table id 331 flags: STMT_END_F
+
+BINLOG '
+FmYcaBMBAAAAOwAAAKoCAAAAAEsBAAAAAAEABnRlc3RkYgAEdGVzdAADAw8BAnwAAAEBwAIB4A3t
+sLI=
+FmYcaB8BAAAAOAAAAOICAAAAAEsBAAAAAAEAAgAD//8ABwAAAANjY2MGAAcAAAADQ0NDBjshKb0=
+'/*!*/;
+### UPDATE `testdb`.`test`
+### WHERE
+###   @1=7
+###   @2='ccc'
+###   @3=6
+### SET
+###   @1=7
+###   @2='CCC'
+###   @3=6
+# at 738
+#250508 17:06:46 server id 1  end_log_pos 769 CRC32 0x8678575b 	Xid = 1158
+COMMIT/*!*/;
+# at 769
+#250508 17:06:56 server id 1  end_log_pos 848 CRC32 0xbc68d5d8 	Anonymous_GTID	last_committed=2	sequence_number=3	rbr_only=yes	original_committed_timestamp=1746691616607676	immediate_commit_timestamp=1746691616607676	transaction_length=314
+/*!50718 SET TRANSACTION ISOLATION LEVEL READ COMMITTED*//*!*/;
+# original_commit_timestamp=1746691616607676 (2025-05-08 17:06:56.607676 ���ѹα� ǥ�ؽ�)
+# immediate_commit_timestamp=1746691616607676 (2025-05-08 17:06:56.607676 ���ѹα� ǥ�ؽ�)
+/*!80001 SET @@session.original_commit_timestamp=1746691616607676*//*!*/;
+/*!80014 SET @@session.original_server_version=80042*//*!*/;
+/*!80014 SET @@session.immediate_server_version=80042*//*!*/;
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 848
+#250508 17:06:56 server id 1  end_log_pos 925 CRC32 0x3fd5d65c 	Query	thread_id=9	exec_time=0	error_code=0
+SET TIMESTAMP=1746691616/*!*/;
+BEGIN
+/*!*/;
+# at 925
+#250508 17:06:56 server id 1  end_log_pos 984 CRC32 0xa0d78a1e 	Table_map: `testdb`.`test` mapped to number 331
+# has_generated_invisible_primary_key=0
+# at 984
+#250508 17:06:56 server id 1  end_log_pos 1052 CRC32 0x56449f8b 	Delete_rows: table id 331 flags: STMT_END_F
+
+BINLOG '
+IGYcaBMBAAAAOwAAANgDAAAAAEsBAAAAAAEABnRlc3RkYgAEdGVzdAADAw8BAnwAAAEBwAIB4B6K
+16A=
+IGYcaCABAAAARAAAABwEAAAAAEsBAAAAAAEAAgAD/wADAAAABGFhYTMFAAQAAAAEYWFhNAYABQAA
+AARhYWE1B4ufRFY=
+'/*!*/;
+### DELETE FROM `testdb`.`test`
+### WHERE
+###   @1=3
+###   @2='aaa3'
+###   @3=5
+### DELETE FROM `testdb`.`test`
+### WHERE
+###   @1=4
+###   @2='aaa4'
+###   @3=6
+### DELETE FROM `testdb`.`test`
+### WHERE
+###   @1=5
+###   @2='aaa5'
+###   @3=7
+# at 1052
+#250508 17:06:56 server id 1  end_log_pos 1083 CRC32 0xaa505726 	Xid = 1169
+COMMIT/*!*/;
+# at 1083
+#250508 17:07:22 server id 1  end_log_pos 1162 CRC32 0xdb185b95 	Anonymous_GTID	last_committed=3	sequence_number=4	rbr_only=yes	original_committed_timestamp=1746691642711648	immediate_commit_timestamp=1746691642711648	transaction_length=323
+/*!50718 SET TRANSACTION ISOLATION LEVEL READ COMMITTED*//*!*/;
+# original_commit_timestamp=1746691642711648 (2025-05-08 17:07:22.711648 ���ѹα� ǥ�ؽ�)
+# immediate_commit_timestamp=1746691642711648 (2025-05-08 17:07:22.711648 ���ѹα� ǥ�ؽ�)
+/*!80001 SET @@session.original_commit_timestamp=1746691642711648*//*!*/;
+/*!80014 SET @@session.original_server_version=80042*//*!*/;
+/*!80014 SET @@session.immediate_server_version=80042*//*!*/;
+SET @@SESSION.GTID_NEXT= 'ANONYMOUS'/*!*/;
+# at 1162
+#250508 17:07:22 server id 1  end_log_pos 1239 CRC32 0xa3434ac4 	Query	thread_id=9	exec_time=0	error_code=0
+SET TIMESTAMP=1746691642/*!*/;
+BEGIN
+/*!*/;
+# at 1239
+#250508 17:07:22 server id 1  end_log_pos 1298 CRC32 0x3a05f5db 	Table_map: `testdb`.`test` mapped to number 331
+# has_generated_invisible_primary_key=0
+# at 1298
+#250508 17:07:22 server id 1  end_log_pos 1375 CRC32 0x37e98993 	Delete_rows: table id 331 flags: STMT_END_F
+
+BINLOG '
+OmYcaBMBAAAAOwAAABIFAAAAAEsBAAAAAAEABnRlc3RkYgAEdGVzdAADAw8BAnwAAAEBwAIB4Nv1
+BTo=
+OmYcaCABAAAATQAAAF8FAAAAAEsBAAAAAAEAAgAD/wABAAAABGFhYTEDAAIAAAAEYWFhMgQABgAA
+AANiYmIFAAcAAAADQ0NDBpOJ6Tc=
+'/*!*/;
+### DELETE FROM `testdb`.`test`
+### WHERE
+###   @1=1
+###   @2='aaa1'
+###   @3=3
+### DELETE FROM `testdb`.`test`
+### WHERE
+###   @1=2
+###   @2='aaa2'
+###   @3=4
+### DELETE FROM `testdb`.`test`
+### WHERE
+###   @1=6
+###   @2='bbb'
+###   @3=5
+### DELETE FROM `testdb`.`test`
+### WHERE
+###   @1=7
+###   @2='CCC'
+###   @3=6
+# at 1375
+#250508 17:07:22 server id 1  end_log_pos 1406 CRC32 0x683749b3 	Xid = 1180
+COMMIT/*!*/;
+SET @@SESSION.GTID_NEXT= 'AUTOMATIC' /* added by mysqlbinlog */ /*!*/;
+DELIMITER ;
+# End of log file
+/*!50003 SET COMPLETION_TYPE=@OLD_COMPLETION_TYPE*/;
+/*!50530 SET @@SESSION.PSEUDO_SLAVE_MODE=0*/;
