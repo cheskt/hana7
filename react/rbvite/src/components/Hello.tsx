@@ -1,18 +1,20 @@
 import {
+  use,
   useImperativeHandle,
   type ForwardedRef,
   type PropsWithChildren,
   type RefObject,
 } from "react";
+import { CounterContext } from "../contexts/counter/CounterContext";
 
 export type HelloHandler = {
+  xx: string;
   sayHello: () => void;
 };
 
 type Props = {
   name: string;
   age: number;
-  plusCount: () => void;
   helloButtonRef: RefObject<HTMLButtonElement | null>;
   refx: ForwardedRef<HelloHandler>;
 };
@@ -21,18 +23,21 @@ type Props = {
 export default function Hello({
   name,
   age,
-  plusCount,
   helloButtonRef,
   children,
   refx,
 }: PropsWithChildren<Props>) {
+  // const { plusCount } = useCounter();
+  const { plusCount } = use(CounterContext);
+
   const helloHandler = {
+    xx: "XXXX",
     sayHello() {
       alert(`Hello, Mr.${name}!`);
     },
   };
 
-  // ref.current = helloHandler;
+  // refx.current = helloHandler;
   useImperativeHandle(refx, () => helloHandler);
 
   return (
