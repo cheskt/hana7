@@ -1,30 +1,24 @@
-import type { Cart, LoginFn, Session } from "../App";
-import Login, { type LoginHandler } from "./Login";
 import Profile from "./Profile";
 import Item from "./Item";
 import { useState, type RefObject } from "react";
+import { useSession } from "../contexts/session/useSession";
+import Login from "./Login";
 
 type Props = {
-  session: Session;
-  login: LoginFn;
-  logout: () => void;
-  removeItem: (id: number) => void;
-  addItem: (name: string, price: number) => void;
-  editItem: (item: Cart) => void;
   logoutButtonRef: RefObject<HTMLButtonElement | null>;
-  loginHandlerRef: RefObject<LoginHandler | null>;
 };
 
-export default function My({
-  session: { loginUser, cart },
-  login,
-  logout,
-  removeItem,
-  addItem,
-  editItem,
-  logoutButtonRef,
-  loginHandlerRef,
-}: Props) {
+export default function My({ logoutButtonRef }: Props) {
+  const {
+    session: { loginUser, cart },
+    login,
+    logout,
+    addItem,
+    removeItem,
+    editItem,
+    loginHandlerRef,
+  } = useSession();
+
   const [isAdding, setAdding] = useState(false);
   const toggleAdding = () => setAdding(!isAdding);
 

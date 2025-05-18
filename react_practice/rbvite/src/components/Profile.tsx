@@ -1,5 +1,5 @@
 import type { RefObject } from "react";
-import type { LoginUser } from "../App";
+import type { LoginUser } from "../contexts/session/SessionContext";
 
 type Props = {
   loginUser: LoginUser | null;
