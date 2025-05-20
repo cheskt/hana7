@@ -17,7 +17,7 @@ export type LoginHandler = {
   validate: () => boolean;
 };
 
-export default function Login({ title }: { title: string }) {
+export default function Login({ title = "LOGIN" }: { title?: string }) {
   const { login, loginHandler: loginHandlerRef } = useSession();
   const { plusCount, minusCount } = useCounter();
   const [x, setX] = useState(0);
