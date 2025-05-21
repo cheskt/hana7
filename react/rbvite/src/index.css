@@ -76,9 +76,27 @@ ul {
 }
 
 .p-sm {
-  padding: 1/2 0.5rem;
+  padding: 0 0.1rem;
+  margin-left: 0.5rem;
+}
+
+.m-1 {
+  margin: 1rem;
 }
 
 .w-sm {
-  width: 5rem;
+  margin-left: 0.5rem;
+  width: 4rem;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.underline {
+  text-decoration: underline;
 }

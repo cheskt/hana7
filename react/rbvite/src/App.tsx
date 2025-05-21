@@ -2,13 +2,17 @@ import { useRef } from "react";
 import "./App.css";
 import Hello, { type HelloHandler } from "./components/Hello";
 import My from "./components/My";
-import SessionProvider from "./contexts/session/SessionProvider";
+import SessionProvider from "./contexts/session/SessioinProvider";
 import Nav from "./Nav";
 import { Route, Routes } from "react-router-dom";
 import Login from "./components/Login";
 import Home from "./components/Home";
 import Posts from "./components/Posts";
 import { NotFound } from "./NotFound";
+import ItemLayout from "./components/ItemLayout";
+import ItemDetail from "./components/ItemDetail";
+import ItemDetailLayout from "./components/ItemDetailLayout";
+import ItemEdit from "./components/ItemEdit";
 
 function App() {
   const helloButtonRef = useRef<HTMLButtonElement>(null);
@@ -37,6 +41,13 @@ function App() {
             }
           />
           <Route path="/posts" element={<Posts />} />
+          <Route path="/items" element={<ItemLayout />}>
+            {/* <Route index element={<Items />} /> */}
+            <Route path=":id" element={<ItemDetailLayout />}>
+              <Route index element={<ItemDetail />} />
+              <Route path="edit" element={<ItemEdit />} />
+            </Route>
+          </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
       </SessionProvider>

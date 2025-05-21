@@ -1,26 +1,50 @@
-import { Link } from "react-router-dom";
+import clsx from "clsx";
 import "./Nav.css";
+import { useSession } from "./contexts/session/SessionContext";
+import { NavLink } from "react-router-dom";
 
 export default function Nav() {
+  const {
+    session: { loginUser },
+  } = useSession();
   return (
     <>
       <ul className="nav">
         <li>
-          <Link to="/" replace>
+          <NavLink to="/" replace>
             Home
-          </Link>
+          </NavLink>
+        </li>
+        {loginUser ? (
+          <li>
+            <NavLink
+              to="/my"
+              style={({ isActive }) => ({ color: isActive ? "red" : "blue" })}
+            >
+              My
+            </NavLink>
+          </li>
+        ) : (
+          <li>
+            <NavLink
+              to="/login"
+              className={({ isActive }) => clsx({ red: isActive })}
+            >
+              Login
+            </NavLink>
+          </li>
+        )}
+        <li>
+          <NavLink to="/posts">Posts</NavLink>
         </li>
         <li>
-          <Link to="/login">Login</Link>
+          <NavLink to="/items">Items</NavLink>
         </li>
         <li>
-          <Link to="/my">My</Link>
+          <NavLink to="/hello">About</NavLink>
         </li>
         <li>
-          <Link to="/posts">Posts</Link>
-        </li>
-        <li>
-          <Link to="/hello">About</Link>
+          <NavLink to="/sadfdsafafds">NotFound</NavLink>
         </li>
       </ul>
     </>

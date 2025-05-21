@@ -1,13 +1,24 @@
 import { useEffect, useRef, useState, type FormEvent } from "react";
-import { useSession, type Cart } from "../contexts/session/SessionContext";
+import { useSession } from "../contexts/session/SessionContext";
+import { useParams } from "react-router-dom";
 
 type Props = {
-  item: Cart;
-  addExpectPrice: (price: number) => void;
+  addExpectPrice?: (price: number) => void;
   toggleAdding?: () => void;
 };
 
-export default function Item({ item, addExpectPrice, toggleAdding }: Props) {
+// /items/:id  <-  /items/2
+export default function Item({ addExpectPrice, toggleAdding }: Props) {
+  const {
+    session: { cart },
+  } = useSession();
+  const param = useParams();
+  const item = cart.find((item) => item.id === Number(param.id)) || {
+    id: 0,
+    name: "",
+    price: 3000,
+  };
+
   const { removeItem, addItem, editItem } = useSession();
   const [isEditing, setEditing] = useState(!item.id);
   const [hasDirty, setDirty] = useState(false);
@@ -48,7 +59,7 @@ export default function Item({ item, addExpectPrice, toggleAdding }: Props) {
     setEditing(false);
     setDirty(false);
     if (toggleAdding) toggleAdding();
-    if (!item.id && itemPriceRef.current) addExpectPrice(0);
+    if (!item.id && itemPriceRef.current && addExpectPrice) addExpectPrice(0);
   };
 
   const checkDirty = () => {
@@ -59,12 +70,12 @@ export default function Item({ item, addExpectPrice, toggleAdding }: Props) {
   };
 
   useEffect(() => {
-    if (!item.id) addExpectPrice(item.price);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    if (!item.id && addExpectPrice) addExpectPrice(item.price);
   }, []);
 
   return (
     <>
+      <h2>Item: {item.name}</h2>
       {isEditing ? (
         <form onSubmit={submitItem} onReset={resetItem}>
           <input
@@ -83,7 +94,7 @@ export default function Item({ item, addExpectPrice, toggleAdding }: Props) {
             className="w-sm"
             onChange={(evt) => {
               checkDirty();
-              if (!item.id)
+              if (!item.id && addExpectPrice)
                 addExpectPrice(item.id ? 0 : Number(evt.target.value));
             }}
           />

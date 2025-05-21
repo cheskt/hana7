@@ -2,6 +2,7 @@ import { FaHome } from "react-icons/fa";
 import { useCounter } from "../contexts/counter/useCounter";
 import { useRef } from "react";
 import type { HelloHandler } from "./Hello";
+import { useLocation } from "react-router-dom";
 
 export default function Home() {
   const { count } = useCounter();
@@ -9,6 +10,10 @@ export default function Home() {
   const helloButtonRef = useRef<HTMLButtonElement>(null);
   const logoutButtonRef = useRef<HTMLButtonElement>(null);
   const helloHandlerRef = useRef<HelloHandler>(null);
+
+  const location = useLocation();
+  const { state } = location;
+  console.log("🚀 state:", state);
 
   return (
     <>

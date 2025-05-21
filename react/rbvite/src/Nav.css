@@ -5,6 +5,12 @@ ul.nav {
   top: 0;
   margin-bottom: 3rem;
   padding: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+ul.nav > li > a.active {
+  text-decoration: underline;
 }
 
 a:hover {
