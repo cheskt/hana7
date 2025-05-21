@@ -2,7 +2,7 @@ import { useRef } from "react";
 import "./App.css";
 import Hello, { type HelloHandler } from "./components/Hello";
 import My from "./components/My";
-import SessionProvider from "./contexts/session/SessioinProvider";
+import SessionProvider from "./contexts/session/SessionProvider";
 import Nav from "./Nav";
 import { Route, Routes } from "react-router-dom";
 import Login from "./components/Login";
