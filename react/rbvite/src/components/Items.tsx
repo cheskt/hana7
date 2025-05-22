@@ -46,7 +46,11 @@ export default function Items() {
 
   return (
     <>
-      <ColorTitle color={cart.length % 2 === 1 ? "blue" : "yellow"}>
+      <ColorTitle
+        color={cart.length % 2 === 1 ? "blue" : "yellow"}
+        size={"md"}
+        textAlign="center"
+      >
         Total: {totalPrice.toLocaleString()}
       </ColorTitle>
       <h4>Expect: {totalExpectPrice.toLocaleString()}</h4>
