@@ -4,7 +4,7 @@ import { PropsWithChildren, Suspense } from 'react';
 
 export default function HelloLayout({ children }: PropsWithChildren) {
   return (
-    <>
+    <div className='border border-green-500 p-1'>
       <ul className='flex gap-3'>
         <li>
           <Link href='/hello/morning'>Morning</Link>
@@ -21,6 +21,6 @@ export default function HelloLayout({ children }: PropsWithChildren) {
         <HelloSearchParams />
       </Suspense>
       <div>{children}</div>
-    </>
+    </div>
   );
 }

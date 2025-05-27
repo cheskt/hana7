@@ -5,7 +5,7 @@ type Props = {
   params: Promise<{ time: string }>;
 };
 
-const Times = ['morning', 'afternoon', 'Evening', 'Night'];
+const Times = ['morning', 'afternoon', 'evening', 'night'];
 export async function generateStaticParams() {
   return Times.map((time) => ({ time }));
 }

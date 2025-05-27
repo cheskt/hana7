@@ -1,0 +1,14 @@
+{
+  "folders": [
+    {
+      "path": "../.." 
+    },
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "git.enabled": true,
+    "git.detectSubmodules": true
+  }
+}

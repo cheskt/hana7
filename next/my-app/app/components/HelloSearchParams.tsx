@@ -1,6 +1,6 @@
 'use client';
 
-import { usePathname, useSearchParams } from 'next/navigation';
+import { useSearchParams } from 'next/navigation';
 import { useRouter } from 'next/navigation';
 import { useLayoutEffect, useState } from 'react';
 
@@ -13,8 +13,8 @@ export default function HelloSearchParams() {
   }, [sparams]);
 
   const router = useRouter();
-  const pathname = usePathname();
-  console.log('🚀 pathname:', pathname);
+  // const pathname = usePathname();
+  // console.log('🚀 pathname:', pathname);
   const setSearchParams = () => {
     const urlParams = new URLSearchParams(sparams.toString());
     urlParams.set('q', `${new Date()}`); // q=****
