@@ -1,0 +1,44 @@
+@api = http://localhost:3000/api
+
+### search folders
+GET {{api}}/folders HTTP/1.1
+
+###add folders
+POST {{api}}/folders?q=5 content-type: application/json
+
+{
+    "title": "공유게시판"
+}
+
+### edit one
+PATCH {{api}}/folders/1/posts
+content-type: application/json
+
+{
+    "title": "공지 1"
+}
+
+# ---------------
+
+### search posts
+GET {{api}}/folders/1/posts HTTP/1.1
+
+### add posts
+POST {{api}}/folders/1/posts/5
+content-type: application/json
+{
+    "title": "추가 테스트",
+    "writer": "테스터"
+}
+
+### edit posts
+PATCH  {{api}}/folders/1/posts/1 
+content-type: application/json
+
+{
+  "writer": "김재윤",
+  "content": "안녕하세요"
+}
+
+### delete one
+DELETE {{api}}/folders/1/posts/1
