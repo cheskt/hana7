@@ -1,9 +1,9 @@
 import DtStr from './DtStr';
 
-export default function CSR() {
+export default function Csr() {
   return (
     <>
-      <h1>Csr</h1>
+      <h1>CSR</h1>
       <DtStr />
     </>
   );

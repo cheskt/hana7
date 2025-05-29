@@ -24,7 +24,7 @@ export default function ClientComponent({
     <>
       <h1 className='text-2xl'>Client Component: {name}</h1>
       {!!session?.user && (
-        <h2 className='text-xl'>{session?.user?.name} loged in</h2>
+        <h2 className='text-xl'>{session.user.name} loged in</h2>
       )}
       <button
         onClick={async () => {

@@ -19,6 +19,9 @@ const nextConfig: NextConfig = {
       {
         hostname: 'phinf.pstatic.net',
       },
+      {
+        hostname: 'ssl.pstatic.net',
+      },
     ],
   },
 };

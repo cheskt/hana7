@@ -4,10 +4,9 @@ import { books } from '../bookdata';
 type Params = {
   params: Promise<{ bookId: string }>;
 };
-
-export async function GET(_req: Params, { params }: Params) {
+export async function GET(_req: Request, { params }: Params) {
   const { bookId } = await params;
-  const book = books.find((b) => b.id == +bookId);
+  const book = books.find((b) => b.id === +bookId);
   if (!book) return notFound();
 
   return Response.json(book);
@@ -15,7 +14,7 @@ export async function GET(_req: Params, { params }: Params) {
 
 export async function PATCH(req: Request, { params }: Params) {
   const { bookId } = await params;
-  const book = books.find((b) => b.id == +bookId);
+  const book = books.find((b) => b.id === +bookId);
   if (!book) throw new Error(`#${bookId} is not Found`);
 
   const body = await req.json();
@@ -26,10 +25,10 @@ export async function PATCH(req: Request, { params }: Params) {
 
 export async function DELETE(req: Request, { params }: Params) {
   const { bookId } = await params;
-  const idx = books.findIndex((b) => b.id == +bookId);
-  if (idx == -1)
-    return Response.json({ code: 404, message: `#${bookId} is no found!` });
-  books.splice(idx, 1);
+  const idx = books.findIndex((b) => b.id === +bookId);
+  if (idx === -1)
+    return Response.json({ code: 404, message: `#${bookId} is not found!` });
 
-  return Response.json({ msg: 'Ok' });
+  books.splice(idx, 1);
+  return Response.json({ msg: 'OK' });
 }

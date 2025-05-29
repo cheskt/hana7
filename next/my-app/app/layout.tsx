@@ -30,13 +30,16 @@ export default async function RootLayout({
             disableTransitionOnChange
           >
             <div className='flex gap-3 dark:gap-5'>
-              <span className='dark:text-red-500'>Root</span>
+              <Link href='/' className='dark:text-red-500'>
+                Home
+              </Link>
               <Link href='/hello'>Hello</Link>
               <Link href='/hi'>Hi</Link>
               <Link href='/hi/night'>Hi Night</Link>
               <Link href='/parallel'>Parallel</Link>
               <Link href='/intercept'>Intercept</Link>
               <Link href='/photos'>Photos</Link>
+              <Link href='/todos'>Todos</Link>
               <ModeToggle />
             </div>
 

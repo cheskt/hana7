@@ -17,5 +17,5 @@ export async function POST(req: NextRequest) {
   const newBook = { id, ...body };
   books.push(newBook);
 
-  return NextResponse.json(body);
+  return NextResponse.json(newBook);
 }

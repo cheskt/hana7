@@ -1,6 +1,6 @@
 'use client';
 
-import { createPost } from '@/lib/actions/post-actions';
+import { createPost } from '@/lib/actions/post-actioins';
 import FolderDropdown from '@/components/FolderDropdown';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';

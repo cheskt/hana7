@@ -2,10 +2,16 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { use } from 'react';
 
+type Photo = {
+  id: number;
+  author: string;
+  download_url: string;
+};
+
 export default function Photos() {
   const photos = use(
     fetch('https://picsum.photos/v2/list?limit=9').then((res) => res.json())
-  );
+  ) as Photo[];
 
   return (
     <>

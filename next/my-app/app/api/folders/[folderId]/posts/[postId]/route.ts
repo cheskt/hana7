@@ -1,10 +1,10 @@
+import { notFound } from 'next/navigation';
+import { NextRequest, NextResponse } from 'next/server';
 import {
   FolderPostParams,
   getPostByPostId,
   posts,
 } from '@/app/api/folders/folderdata';
-import { notFound } from 'next/navigation';
-import { NextRequest, NextResponse } from 'next/server';
 
 // folders/1/posts/2
 export async function GET(req: NextRequest, { params }: FolderPostParams) {
