@@ -2,9 +2,17 @@ package oopex;
 
 public class ShapeMain {
 	public static void main(String[] args) {
+		long startTimeMs = System.currentTimeMillis();
+		long startTime = System.nanoTime();
 		Circle circle = new Circle(3);
+		Circle circle1 = new Circle(3);
+		System.out.println(circle.equals(circle1));
 		ResizableCircle resizableCircle = new ResizableCircle(7);
 		AppShape<Circle> ac = new AppShape<>(circle);
+		System.out.println(System.currentTimeMillis() - startTimeMs);
+		System.out.println(System.nanoTime() - startTime);
+
+		System.out.println(System.getenv());
 
 		// AppShape.safeResize(circle, 10);
 		AppShape.safeResize(resizableCircle, 10);

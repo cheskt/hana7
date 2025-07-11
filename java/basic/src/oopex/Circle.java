@@ -1,5 +1,7 @@
 package oopex;
 
+import java.util.Objects;
+
 public class Circle extends Shape implements GeometricObject {
 	protected double radius;
 
@@ -24,4 +26,16 @@ public class Circle extends Shape implements GeometricObject {
 			'}';
 	}
 
+	@Override
+	public boolean equals(Object o) {
+		if (o == null || getClass() != o.getClass())
+			return false;
+		Circle circle = (Circle)o;
+		return Double.compare(radius, circle.radius) == 0;
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hashCode(radius);
+	}
 }
