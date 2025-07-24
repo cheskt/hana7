@@ -3,24 +3,13 @@
   <component name="CheckStyle-IDEA" serialisationVersion="2">
     <checkstyleVersion>10.26.0</checkstyleVersion>
     <scanScope>JavaOnly</scanScope>
-    <suppressErrors>true</suppressErrors>
     <copyLibs>true</copyLibs>
     <option name="thirdPartyClasspath" />
-    <option name="activeLocationIds">
-      <option value="1f058924-85f8-487a-9061-7f0102e9a9a8" />
-    </option>
+    <option name="activeLocationIds" />
     <option name="locations">
       <list>
         <ConfigurationLocation id="bundled-sun-checks" type="BUNDLED" scope="All" description="Sun Checks">(bundled)</ConfigurationLocation>
         <ConfigurationLocation id="bundled-google-checks" type="BUNDLED" scope="All" description="Google Checks">(bundled)</ConfigurationLocation>
-        <ConfigurationLocation id="1f058924-85f8-487a-9061-7f0102e9a9a8" type="LOCAL_FILE" scope="All" description="Naver Checks">
-          $USER_HOME$/Downloads/naver-checkstyle-rules.xml
-          <option name="properties">
-            <map>
-              <entry key="suppressionFile" value="&lt;?xml version=&quot;1.0&quot;?&gt; &lt;!DOCTYPE suppressions PUBLIC &quot;-//Puppy Crawl//DTD Suppressions 1.1//EN&quot; &quot;http://www.puppycrawl.com/dtds/suppressions_1_1.dtd&quot;&gt;  &lt;suppressions&gt; &lt;/suppressions&gt;" />
-            </map>
-          </option>
-        </ConfigurationLocation>
       </list>
     </option>
   </component>

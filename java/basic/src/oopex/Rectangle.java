@@ -18,7 +18,7 @@ public class Rectangle extends Shape implements GeometricObject {
 	public double calcPerimeter() {
 		return (this.width + this.height) * 2;
 	}
-
+	
 	@Override
 	public String toString() {
 		return "Rectangle{" +

@@ -32,3 +32,8 @@ class CarEx {
 		car.run();
 	}
 }
+
+class Emp {
+	private int id;
+	private String name;
+}

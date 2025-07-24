@@ -1,5 +1,10 @@
 package book;
 
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
+
 public class ArrayedGeneralBook implements GeneralBook {
 	private static final int CAPACITY = 10;
 
@@ -169,6 +174,20 @@ public class ArrayedGeneralBook implements GeneralBook {
 		// System.arraycopy(tmps, idx + 1, tmps, idx, size - idx - 1);
 		// tmps[--size] = null;
 		// System.out.println(Arrays.toString(tmps));
+
+		LocalTime startTime = LocalTime.of(14, 0);
+		LocalDateTime ldt = LocalDateTime.of(2026, 3, 1, 14, 0, 0);
+		System.out.println(LocalDateTime.now().isAfter(ldt)); // cf. isBefore(), isEqual()
+
+		for (String zone : ZoneId.getAvailableZoneIds()) {
+			ZoneId zoneId = ZoneId.of(zone);
+			if (zoneId.toString().startsWith("Asia"))
+				System.out.println(zoneId + " => " + zoneId.getRules());
+		}
+		ZoneId defZone = ZoneId.systemDefault();
+		ZoneId seoulZone = ZoneId.of("Asia/Seoul"); // seoulZone.getRules()
+		ZonedDateTime nowZdt = ZonedDateTime.now();
+		ZonedDateTime zdt1 = ZonedDateTime.of(ldt, ZoneId.of("Asia/Sakhalin")); // 여기 시간이라고 할래
 
 	}
 }

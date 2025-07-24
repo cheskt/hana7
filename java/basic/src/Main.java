@@ -1,17 +1,28 @@
-// Shift을(를) 두 번 눌러 전체 검색 대화상자를 열고 'show whitespaces'를 입력한 다음,
-// Enter를 누르세요. 그러면 코드 내에서 공백 문자를 확인할 수 있습니다.
+import java.util.Arrays;
+import java.util.regex.Pattern;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    public static void main(String[] args) {
-        // 캐럿을 강조 표시된 텍스트에 놓고 Alt+Enter을(를) 누르면
-        // IntelliJ IDEA의 수정 제안을 볼 수 있습니다.
-        System.out.printf("Hello and welcome!");
+	public static void main(String[] args) {
+		//TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
+		int radius = 100;
+		Integer[] iarr = new Integer[10];
+		iarr[1] = 1;
+		iarr[4] = 4;
+		// Objects.requireNonNull(iarr[0]);
+		System.out.println(Arrays.toString(iarr));
+		// to see how IntelliJ IDEA suggests fixing it.
+		System.out.printf("Hello and welcome!%n" + radius);
 
-        // Shift+F10을(를) 누르거나 여백의 녹색 화살표 버튼을 클릭하여 코드를 실행합니다.
-        for (int i = 1; i <= 5; i++) {
+		for (int i = 1; i <= 2; i++) {
+			//TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
+			// for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
+			System.out.println("i = " + i);
 
-            // Shift+F9을(를) 눌러 코드 디버그를 시작합니다. 중단점을 하나 설정해 드렸습니다.
-            // 중단점을 더 추가하려면 언제든지 Ctrl+F8을(를) 누르세요.
-            System.out.println("i = " + i);
-        }
-    }
+			String url = "https://naver.com/abc=1";
+			String domain = url.replaceAll("https?://([^/]+).*", "$1");
+			System.out.println("domain = " + domain);
+		}
+	}
 }

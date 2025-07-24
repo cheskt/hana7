@@ -1,4 +1,4 @@
-package oop;
+package bank;
 
 import java.util.Scanner;
 
@@ -51,7 +51,7 @@ public class Employee {
 		Scanner scanner = new Scanner(System.in);
 
 		int idx = 0;
-		while (idx < emps.length) {
+		while (true) {
 			System.out.print("id name salary> ");
 			String inputStr = scanner.nextLine();
 			String[] data = inputStr.split("\\s+");
@@ -62,6 +62,8 @@ public class Employee {
 			int id = Integer.parseInt(data[0]);
 			int salary = Integer.parseInt(data[2]);
 			emps[idx++] = new Employee(id, data[1], salary);
+			if (idx >= emps.length)
+				break;
 		}
 
 		for (Employee emp : emps) {

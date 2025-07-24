@@ -52,12 +52,12 @@ public class Student extends Person {
 		} catch (ClassCastException e) {
 			System.err.println(e.getMessage());
 		}
-		System.out.println("Downcasting");
+		System.out.println("DownCasting!!");
 	}
 
 	public static void main(String[] args) {
-		Person p1 = new Person("hong", "seoul");
-		Person p2 = new Student("kim", "seoul", "xx", 2025, 2000);
+		Person p1 = new Person("Hong", "Seoul");
+		Person p2 = new Student("Kim", "Pusan", "xx", 2025, 2000);
 		Staff s1 = new Staff("xx", "xx", "xx", 500);
 		Student.method(p1);
 		Student.method(p2);

@@ -27,9 +27,9 @@ public class Person {
 
 	@Override
 	public String toString() {
-		return "oop.Person["
-			+ "name='" + name + '\''
-			+ ", addr='" + addr + '\''
-			+ ']';
+		return "Person[" +
+			"name='" + name + '\'' +
+			", addr='" + addr + '\'' +
+			']';
 	}
 }
