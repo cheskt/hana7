@@ -3,7 +3,8 @@
 
 <mapper namespace="com.hana7.springdemo.dao.UserDAO">
     <insert id="insert" parameterType="User" useGeneratedKeys="true" keyProperty="id" keyColumn="id">
-        insert into User(name, mobile, email) values(#{name}, #{mobile}, #{email})
+        insert into User(name, mobile, email)
+        values (#{name}, #{mobile}, #{email})
     </insert>
 
     <select id="getUser" resultType="com.hana7.springdemo.dto.User">

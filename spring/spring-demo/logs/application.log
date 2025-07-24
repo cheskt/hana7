@@ -1,0 +1,735 @@
+2025-07-24 11:17:42 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 22300 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 11:17:42 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 11:17:42 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 11:17:44 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 11:17:44 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 11:17:44 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 11:17:45 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 3.332 seconds (process running for 4.717)
+2025-07-24 11:18:02 [http-nio-8000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-24 11:27:52 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 21156 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 11:27:52 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 11:27:52 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 11:27:53 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 11:27:53 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 11:27:54 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 11:27:54 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 3.394 seconds (process running for 4.136)
+2025-07-24 11:27:57 [http-nio-8000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-24 13:05:17 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 30848 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 13:05:17 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 13:05:17 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 13:05:18 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 13:05:18 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 13:05:18 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 13:05:19 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 2.489 seconds (process running for 3.681)
+2025-07-24 13:06:44 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 30848 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 13:06:44 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 13:06:44 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 13:06:44 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 13:06:44 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 13:06:44 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 13:06:45 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 0.534 seconds (process running for 89.819)
+2025-07-24 13:07:01 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 30848 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 13:07:01 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 13:07:01 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 13:07:01 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 13:07:01 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 13:07:01 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 13:07:01 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 0.465 seconds (process running for 106.179)
+2025-07-24 13:08:04 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 30848 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 13:08:04 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 13:08:04 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 13:08:04 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 13:08:04 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 13:08:04 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 13:08:04 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 0.417 seconds (process running for 169.653)
+2025-07-24 13:08:13 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 30848 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 13:08:13 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 13:08:13 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 13:08:14 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 13:08:14 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 13:08:14 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 13:08:14 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 0.44 seconds (process running for 178.808)
+2025-07-24 13:36:23 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 24828 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 13:36:23 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 13:36:23 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 13:36:25 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 13:36:25 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 13:36:25 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 13:36:25 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'postController' defined in file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main\com\hana7\springdemo\PostController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'postService' defined in file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main\com\hana7\springdemo\service\PostService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'postRepository' defined in file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main\com\hana7\springdemo\dao\PostRepository.class]: Cannot resolve reference to bean 'sqlSessionTemplate' while setting bean property 'sqlSessionTemplate'
+2025-07-24 13:36:25 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-07-24 13:36:25 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'postController' defined in file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main\com\hana7\springdemo\PostController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'postService' defined in file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main\com\hana7\springdemo\service\PostService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'postRepository' defined in file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main\com\hana7\springdemo\dao\PostRepository.class]: Cannot resolve reference to bean 'sqlSessionTemplate' while setting bean property 'sqlSessionTemplate'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.hana7.springdemo.SpringDemoApplication.main(SpringDemoApplication.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'postService' defined in file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main\com\hana7\springdemo\service\PostService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'postRepository' defined in file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main\com\hana7\springdemo\dao\PostRepository.class]: Cannot resolve reference to bean 'sqlSessionTemplate' while setting bean property 'sqlSessionTemplate'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1745)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'postRepository' defined in file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main\com\hana7\springdemo\dao\PostRepository.class]: Cannot resolve reference to bean 'sqlSessionTemplate' while setting bean property 'sqlSessionTemplate'
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:377)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1725)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1745)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 38 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\resources\main\mybatis\map\user.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	... 52 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\resources\main\mybatis\map\user.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1683)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 62 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\resources\main\mybatis\map\user.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:199)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:88)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:168)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 75 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\resources\main\mybatis\map\user.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:700)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:577)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:720)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:171)
+	... 78 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\resources\main\mybatis\map\user.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains key com.hana7.springdemo.dao.UserDAO.insert. please check file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\resources\main\mybatis\map\post.xml] and file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\resources\main\mybatis\map\user.xml]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:127)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:100)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:698)
+	... 84 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Mapped Statements collection already contains key com.hana7.springdemo.dao.UserDAO.insert. please check file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\resources\main\mybatis\map\post.xml] and file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\resources\main\mybatis\map\user.xml]
+	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:1071)
+	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:1024)
+	at org.apache.ibatis.session.Configuration.addMappedStatement(Configuration.java:822)
+	at org.apache.ibatis.builder.MapperBuilderAssistant.addMappedStatement(MapperBuilderAssistant.java:223)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:143)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:135)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:125)
+	... 86 common frames omitted
+2025-07-24 13:36:33 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 20508 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 13:36:33 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 13:36:33 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 13:36:34 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 13:36:34 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 13:36:34 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 13:36:35 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'postController' defined in file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main\com\hana7\springdemo\PostController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'postService' defined in file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main\com\hana7\springdemo\service\PostService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'postRepository' defined in file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main\com\hana7\springdemo\dao\PostRepository.class]: Cannot resolve reference to bean 'sqlSessionTemplate' while setting bean property 'sqlSessionTemplate'
+2025-07-24 13:36:35 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-07-24 13:36:35 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'postController' defined in file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main\com\hana7\springdemo\PostController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'postService' defined in file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main\com\hana7\springdemo\service\PostService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'postRepository' defined in file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main\com\hana7\springdemo\dao\PostRepository.class]: Cannot resolve reference to bean 'sqlSessionTemplate' while setting bean property 'sqlSessionTemplate'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.hana7.springdemo.SpringDemoApplication.main(SpringDemoApplication.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'postService' defined in file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main\com\hana7\springdemo\service\PostService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'postRepository' defined in file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main\com\hana7\springdemo\dao\PostRepository.class]: Cannot resolve reference to bean 'sqlSessionTemplate' while setting bean property 'sqlSessionTemplate'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1745)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'postRepository' defined in file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main\com\hana7\springdemo\dao\PostRepository.class]: Cannot resolve reference to bean 'sqlSessionTemplate' while setting bean property 'sqlSessionTemplate'
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:377)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1725)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1745)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 38 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\resources\main\mybatis\map\user.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	... 52 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\resources\main\mybatis\map\user.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1683)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 62 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\resources\main\mybatis\map\user.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:199)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:88)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:168)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 75 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\resources\main\mybatis\map\user.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:700)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:577)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:720)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:171)
+	... 78 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\resources\main\mybatis\map\user.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains key com.hana7.springdemo.dao.UserDAO.insert. please check file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\resources\main\mybatis\map\post.xml] and file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\resources\main\mybatis\map\user.xml]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:127)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:100)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:698)
+	... 84 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Mapped Statements collection already contains key com.hana7.springdemo.dao.UserDAO.insert. please check file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\resources\main\mybatis\map\post.xml] and file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\resources\main\mybatis\map\user.xml]
+	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:1071)
+	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:1024)
+	at org.apache.ibatis.session.Configuration.addMappedStatement(Configuration.java:822)
+	at org.apache.ibatis.builder.MapperBuilderAssistant.addMappedStatement(MapperBuilderAssistant.java:223)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:143)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:135)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:125)
+	... 86 common frames omitted
+2025-07-24 14:27:38 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 28268 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 14:27:38 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 14:27:38 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 14:27:40 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 14:27:40 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 14:27:40 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 14:27:40 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 2.638 seconds (process running for 3.421)
+2025-07-24 14:28:18 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 6720 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 14:28:18 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 14:28:18 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 14:28:19 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 14:28:19 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 14:28:19 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 14:28:20 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 2.479 seconds (process running for 3.302)
+2025-07-24 14:29:01 [http-nio-8000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-24 14:29:01 [http-nio-8000-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-24 14:29:02 [http-nio-8000-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c5892ec
+2025-07-24 14:29:02 [http-nio-8000-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-24 14:29:02 [http-nio-8000-exec-1] DEBUG c.h.s.dao.PostRepository.getPosts - ==>  Preparing: select * from Post
+2025-07-24 14:29:02 [http-nio-8000-exec-1] DEBUG c.h.s.dao.PostRepository.getPosts - ==> Parameters: 
+2025-07-24 14:29:02 [http-nio-8000-exec-1] DEBUG c.h.s.dao.PostRepository.getPosts - <==      Total: 0
+2025-07-24 14:29:02 [http-nio-8000-exec-1] DEBUG c.h.s.dao.PostRepository.getUsers - ==>  Preparing: select u.* from User u inner join Post P on u.id = p.writer
+2025-07-24 14:29:02 [http-nio-8000-exec-1] DEBUG c.h.s.dao.PostRepository.getUsers - ==> Parameters: 
+2025-07-24 14:29:02 [http-nio-8000-exec-1] DEBUG c.h.s.dao.PostRepository.getUsers - <==      Total: 0
+2025-07-24 14:29:02 [http-nio-8000-exec-1] DEBUG c.h.springdemo.service.PostService - users={}
+2025-07-24 14:29:08 [http-nio-8000-exec-2] DEBUG com.hana7.springdemo.PostController - post=Post(id=0, title=title03, createdAt=null, writer=2, user=null, content=content....)
+2025-07-24 14:29:08 [http-nio-8000-exec-2] DEBUG c.h.s.dao.PostRepository.insert - ==>  Preparing: insert into Post(title, writer, content) values(?, ?, ?)
+2025-07-24 14:29:08 [http-nio-8000-exec-2] DEBUG c.h.s.dao.PostRepository.insert - ==> Parameters: title03(String), 2(Integer), content....(String)
+2025-07-24 14:29:08 [http-nio-8000-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`testdb`.`post`, CONSTRAINT `post_ibfk_1` FOREIGN KEY (`writer`) REFERENCES `post` (`id`) ON DELETE SET NULL)
+### The error may exist in file [C:\Users\NT750XDA\hana7\spring\spring-demo\build\resources\main\mybatis\map\post.xml]
+### The error may involve com.hana7.springdemo.dao.PostRepository.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into Post(title, writer, content) values(?, ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`testdb`.`post`, CONSTRAINT `post_ibfk_1` FOREIGN KEY (`writer`) REFERENCES `post` (`id`) ON DELETE SET NULL)
+; Cannot add or update a child row: a foreign key constraint fails (`testdb`.`post`, CONSTRAINT `post_ibfk_1` FOREIGN KEY (`writer`) REFERENCES `post` (`id`) ON DELETE SET NULL)] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`testdb`.`post`, CONSTRAINT `post_ibfk_1` FOREIGN KEY (`writer`) REFERENCES `post` (`id`) ON DELETE SET NULL)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:990)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:384)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy4/jdk.proxy4.$Proxy89.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	at jdk.proxy2/jdk.proxy2.$Proxy74.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy3/jdk.proxy3.$Proxy75.insert(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy3/jdk.proxy3.$Proxy76.insert(Unknown Source)
+	at com.hana7.springdemo.service.PostService.save(PostService.java:51)
+	at com.hana7.springdemo.PostController.registry(PostController.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-07-24 14:30:42 [http-nio-8000-exec-4] DEBUG c.h.s.dao.PostRepository.getPosts - ==>  Preparing: select * from Post
+2025-07-24 14:30:42 [http-nio-8000-exec-4] DEBUG c.h.s.dao.PostRepository.getPosts - ==> Parameters: 
+2025-07-24 14:30:42 [http-nio-8000-exec-4] DEBUG c.h.s.dao.PostRepository.getPosts - <==      Total: 0
+2025-07-24 14:30:42 [http-nio-8000-exec-4] DEBUG c.h.s.dao.PostRepository.getUsers - ==>  Preparing: select u.* from User u inner join Post P on u.id = p.writer
+2025-07-24 14:30:42 [http-nio-8000-exec-4] DEBUG c.h.s.dao.PostRepository.getUsers - ==> Parameters: 
+2025-07-24 14:30:42 [http-nio-8000-exec-4] DEBUG c.h.s.dao.PostRepository.getUsers - <==      Total: 0
+2025-07-24 14:30:42 [http-nio-8000-exec-4] DEBUG c.h.springdemo.service.PostService - users={}
+2025-07-24 14:30:52 [http-nio-8000-exec-5] DEBUG com.hana7.springdemo.PostController - post=Post(id=0, title=title03, createdAt=null, writer=2, user=null, content=content....)
+2025-07-24 14:30:52 [http-nio-8000-exec-5] DEBUG c.h.s.dao.PostRepository.insert - ==>  Preparing: insert into Post(title, writer, content) values(?, ?, ?)
+2025-07-24 14:30:52 [http-nio-8000-exec-5] DEBUG c.h.s.dao.PostRepository.insert - ==> Parameters: title03(String), 2(Integer), content....(String)
+2025-07-24 14:30:52 [http-nio-8000-exec-5] DEBUG c.h.s.dao.PostRepository.insert - <==    Updates: 1
+2025-07-24 14:31:22 [http-nio-8000-exec-7] DEBUG c.h.s.dao.PostRepository.getPosts - ==>  Preparing: select * from Post
+2025-07-24 14:31:22 [http-nio-8000-exec-7] DEBUG c.h.s.dao.PostRepository.getPosts - ==> Parameters: 
+2025-07-24 14:31:22 [http-nio-8000-exec-7] DEBUG c.h.s.dao.PostRepository.getPosts - <==      Total: 1
+2025-07-24 14:31:22 [http-nio-8000-exec-7] DEBUG c.h.s.dao.PostRepository.getUsers - ==>  Preparing: select u.* from User u inner join Post P on u.id = p.writer
+2025-07-24 14:31:22 [http-nio-8000-exec-7] DEBUG c.h.s.dao.PostRepository.getUsers - ==> Parameters: 
+2025-07-24 14:31:22 [http-nio-8000-exec-7] DEBUG c.h.s.dao.PostRepository.getUsers - <==      Total: 1
+2025-07-24 14:31:22 [http-nio-8000-exec-7] DEBUG c.h.springdemo.service.PostService - users={2=User(id=2, name=Hong, email=hong@gmail.com, mobile=null)}
+2025-07-24 15:19:51 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-24 15:19:51 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-24 16:31:06 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 26796 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 16:31:06 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 16:31:06 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 16:31:08 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 16:31:08 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 16:31:08 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 16:31:09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-24 16:31:09 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5682dd5c
+2025-07-24 16:31:09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-24 16:31:12 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-24 16:31:12 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 6.606 seconds (process running for 7.633)
+2025-07-24 16:32:17 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-24 16:32:17 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-24 16:32:17 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 26796 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 16:32:17 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 16:32:17 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 16:32:17 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 16:32:17 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 16:32:17 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 16:32:18 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-07-24 16:32:18 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74ce286b
+2025-07-24 16:32:18 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-07-24 16:32:18 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-24 16:32:18 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 1.049 seconds (process running for 73.03)
+2025-07-24 16:32:20 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-07-24 16:32:20 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-07-24 16:32:20 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 26796 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 16:32:20 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 16:32:20 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 16:32:20 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 16:32:20 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 16:32:20 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 16:32:21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2025-07-24 16:32:21 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73b293ce
+2025-07-24 16:32:21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2025-07-24 16:32:22 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-24 16:32:22 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 2.066 seconds (process running for 77.066)
+2025-07-24 16:33:11 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2025-07-24 16:33:11 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2025-07-24 16:33:11 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 26796 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 16:33:11 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 16:33:11 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 16:33:11 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 16:33:11 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 16:33:11 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 16:33:11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2025-07-24 16:33:11 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6af10fa0
+2025-07-24 16:33:11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2025-07-24 16:33:11 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-24 16:33:12 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 0.779 seconds (process running for 126.812)
+2025-07-24 16:33:58 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2025-07-24 16:33:58 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2025-07-24 16:33:58 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 26796 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 16:33:58 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 16:33:58 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 16:33:59 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 16:33:59 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 16:33:59 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 16:33:59 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2025-07-24 16:33:59 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78417d75
+2025-07-24 16:33:59 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2025-07-24 16:33:59 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-24 16:33:59 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 0.998 seconds (process running for 174.523)
+2025-07-24 16:34:01 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2025-07-24 16:34:01 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2025-07-24 16:34:01 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 26796 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 16:34:01 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 16:34:01 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 16:34:02 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 16:34:02 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 16:34:02 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 16:34:02 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2025-07-24 16:34:02 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@795fdbd3
+2025-07-24 16:34:02 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2025-07-24 16:34:03 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-24 16:34:03 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 1.839 seconds (process running for 178.286)
+2025-07-24 16:34:29 [Thread-23] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2025-07-24 16:34:29 [Thread-23] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2025-07-24 16:34:29 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 26796 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 16:34:29 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 16:34:29 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 16:34:30 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 16:34:30 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 16:34:30 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 16:34:30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2025-07-24 16:34:30 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3fdf9886
+2025-07-24 16:34:30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+2025-07-24 16:34:30 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-24 16:34:30 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 1.017 seconds (process running for 205.592)
+2025-07-24 16:34:32 [Thread-27] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2025-07-24 16:34:32 [Thread-27] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+2025-07-24 16:34:32 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 26796 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 16:34:32 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 16:34:32 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 16:34:32 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 16:34:32 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 16:34:32 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 16:34:32 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+2025-07-24 16:34:32 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42d4613a
+2025-07-24 16:34:32 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+2025-07-24 16:34:33 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-24 16:34:33 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 0.908 seconds (process running for 208.067)
+2025-07-24 16:34:34 [Thread-31] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+2025-07-24 16:34:34 [Thread-31] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+2025-07-24 16:34:35 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 26796 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 16:34:35 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 16:34:35 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 16:34:35 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 16:34:35 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 16:34:36 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 16:34:36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Starting...
+2025-07-24 16:34:36 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ada56ed
+2025-07-24 16:34:36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Start completed.
+2025-07-24 16:34:36 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-24 16:34:36 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 1.845 seconds (process running for 211.489)
+2025-07-24 16:35:30 [Thread-35] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown initiated...
+2025-07-24 16:35:30 [Thread-35] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown completed.
+2025-07-24 16:35:30 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 26796 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 16:35:30 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 16:35:30 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 16:35:31 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 16:35:31 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 16:35:31 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 16:35:31 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Starting...
+2025-07-24 16:35:31 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1003c665
+2025-07-24 16:35:31 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Start completed.
+2025-07-24 16:35:31 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-24 16:35:31 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 0.679 seconds (process running for 266.208)
+2025-07-24 16:35:31 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown initiated...
+2025-07-24 16:35:31 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown completed.
+2025-07-24 16:35:37 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 28880 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 16:35:37 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 16:35:37 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 16:35:38 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 16:35:38 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 16:35:39 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 16:35:39 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-24 16:35:39 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1444f830
+2025-07-24 16:35:39 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-24 16:35:42 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-24 16:35:43 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 6.681 seconds (process running for 7.507)
+2025-07-24 16:36:08 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-24 16:36:08 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-24 16:36:13 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 31356 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 16:36:13 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 16:36:13 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 16:36:15 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 16:36:15 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 16:36:15 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 16:36:16 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-24 16:36:16 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@352ef0f4
+2025-07-24 16:36:16 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-24 16:36:18 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-24 16:36:18 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 6.063 seconds (process running for 6.873)
+2025-07-24 16:36:53 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-24 16:36:53 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-24 16:36:53 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 31356 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 16:36:53 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 16:36:53 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 16:36:54 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 16:36:54 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 16:36:54 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 16:36:54 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-07-24 16:36:54 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@270f753
+2025-07-24 16:36:54 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-07-24 16:36:54 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-24 16:36:54 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 0.879 seconds (process running for 42.345)
+2025-07-24 16:37:04 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-07-24 16:37:04 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-07-24 16:37:04 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 31356 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 16:37:04 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 16:37:04 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 16:37:04 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 16:37:04 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 16:37:04 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 16:37:04 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2025-07-24 16:37:04 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7fc1f1ac
+2025-07-24 16:37:04 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2025-07-24 16:37:04 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-24 16:37:04 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 0.707 seconds (process running for 52.796)
+2025-07-24 16:38:09 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2025-07-24 16:38:09 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2025-07-24 16:38:09 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 31356 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 16:38:09 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 16:38:09 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 16:38:09 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 16:38:09 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 16:38:09 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 16:38:09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2025-07-24 16:38:09 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d3f5569
+2025-07-24 16:38:09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2025-07-24 16:38:09 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-24 16:38:09 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 0.692 seconds (process running for 117.712)
+2025-07-24 16:38:30 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2025-07-24 16:38:30 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2025-07-24 16:38:34 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 30912 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 16:38:34 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 16:38:34 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 16:38:36 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 16:38:36 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 16:38:36 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 16:38:37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-24 16:38:37 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59cc8724
+2025-07-24 16:38:37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-24 16:38:39 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-24 16:38:40 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 5.905 seconds (process running for 6.703)
+2025-07-24 16:43:42 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-24 16:43:42 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-24 16:43:42 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 30912 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 16:43:42 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 16:43:42 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 16:43:42 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 16:43:42 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 16:43:43 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 16:43:43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-07-24 16:43:43 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e05efc1
+2025-07-24 16:43:43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-07-24 16:43:43 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-24 16:43:43 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 0.999 seconds (process running for 310.07)
+2025-07-24 16:44:00 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-07-24 16:44:00 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-07-24 16:44:00 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 30912 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 16:44:00 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 16:44:00 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 16:44:00 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 16:44:00 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 16:44:00 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 16:44:01 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2025-07-24 16:44:01 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@764fdf8d
+2025-07-24 16:44:01 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2025-07-24 16:44:01 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-24 16:44:01 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 1.038 seconds (process running for 328.003)
+2025-07-24 16:44:03 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2025-07-24 16:44:03 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2025-07-24 16:44:03 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 30912 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 16:44:03 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 16:44:03 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 16:44:04 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 16:44:04 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 16:44:04 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 16:44:04 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2025-07-24 16:44:04 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4515ef58
+2025-07-24 16:44:04 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2025-07-24 16:44:05 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-24 16:44:05 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 2.243 seconds (process running for 332.402)
+2025-07-24 16:55:20 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2025-07-24 16:55:20 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2025-07-24 16:58:33 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 18684 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 16:58:33 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 16:58:33 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 16:58:35 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 16:58:35 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 16:58:35 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 16:58:36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-24 16:58:36 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2fa8813d
+2025-07-24 16:58:36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-24 16:58:38 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-24 16:58:39 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 6.078 seconds (process running for 6.911)
+2025-07-24 16:59:19 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-24 16:59:19 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-24 16:59:19 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 18684 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 16:59:19 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 16:59:19 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 16:59:19 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 16:59:19 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 16:59:19 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 16:59:19 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-07-24 16:59:20 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b27c40c
+2025-07-24 16:59:20 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-07-24 16:59:20 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-24 16:59:20 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 0.923 seconds (process running for 47.811)
+2025-07-24 16:59:21 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-07-24 16:59:21 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-07-24 16:59:21 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Starting SpringDemoApplication using Java 21.0.7 with PID 18684 (C:\Users\NT750XDA\hana7\spring\spring-demo\build\classes\java\main started by NT750XDA in C:\Users\NT750XDA\hana7\spring\spring-demo)
+2025-07-24 16:59:21 [restartedMain] DEBUG c.h.springdemo.SpringDemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 16:59:21 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 16:59:22 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 16:59:22 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-24 16:59:22 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 16:59:22 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2025-07-24 16:59:22 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b64a668
+2025-07-24 16:59:22 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2025-07-24 16:59:22 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-24 16:59:22 [restartedMain] INFO  c.h.springdemo.SpringDemoApplication - Started SpringDemoApplication in 1.038 seconds (process running for 50.392)
+2025-07-24 16:59:55 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2025-07-24 16:59:55 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.

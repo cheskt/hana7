@@ -9,5 +9,6 @@ import com.hana7.springdemo.dto.User;
 @Mapper
 public interface UserDAO {
 	public User getUser(int id);
+
 	public void insert(User user);
 }

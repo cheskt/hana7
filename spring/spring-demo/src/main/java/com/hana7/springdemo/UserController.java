@@ -23,6 +23,7 @@ import lombok.extern.log4j.Log4j2;
 @Log4j2
 public class UserController {
 	private final UserService service;
+
 	public UserController(UserService service) {
 		this.service = service;
 	}
@@ -40,11 +41,11 @@ public class UserController {
 		List<User> list = new ArrayList<>();
 		for (int i = 0; i < 5; i++) {
 			list.add(User.builder()
-				.id(i + 1)
-				.name("Guest")
-				.email("abc" + i + "@gmail.com")
-				.mobile("010-2222-333" + i)
-				.build());
+						 .id(i + 1)
+						 .name("Guest")
+						 .email("abc" + i + "@gmail.com")
+						 .mobile("010-2222-333" + i)
+						 .build());
 		}
 		return list;
 	}

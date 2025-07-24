@@ -17,6 +17,6 @@ public class HelloController {
 		logger.debug("Debug");
 		logger.warn("Warning");
 		logger.info("info");
-		return new String[]{"Hello", "World!"};
+		return new String[] {"Hello", "World!"};
 	}
 }
