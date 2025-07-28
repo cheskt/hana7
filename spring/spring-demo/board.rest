@@ -1,0 +1,7 @@
+@baseUrl=http://localhost:8081
+
+### all
+GET {{baseUrl}}/boards?page=1&countPerPage=10
+
+### detail
+GET {{baseUrl}}/boards/1
