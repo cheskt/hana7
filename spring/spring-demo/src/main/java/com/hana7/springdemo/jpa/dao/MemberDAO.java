@@ -7,7 +7,10 @@ import com.hana7.springdemo.jpa.dto.MemberRequestDTO;
 
 public interface MemberDAO {
 	List<MemberDTO> findAll();
+
 	MemberDTO findOne();
+
 	MemberDTO save(MemberRequestDTO dto);
+
 	void delete();
 }

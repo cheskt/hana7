@@ -17,7 +17,7 @@ public class BoardDTO {
 
 	private String content;
 
-	private String writer;
+	private Long writer_id;
 
 	private LocalDateTime regDate;
 

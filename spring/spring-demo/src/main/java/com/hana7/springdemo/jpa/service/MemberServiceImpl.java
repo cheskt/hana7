@@ -5,6 +5,8 @@ import java.util.List;
 import com.hana7.springdemo.jpa.dao.MemberDAO;
 import com.hana7.springdemo.jpa.dto.MemberDTO;
 import com.hana7.springdemo.jpa.dto.MemberRequestDTO;
+import com.hana7.springdemo.jpa.dto.MemberResponseDTO;
+import com.hana7.springdemo.jpa.entity.Member;
 
 import lombok.RequiredArgsConstructor;
 
@@ -30,5 +32,13 @@ public class MemberServiceImpl implements MemberService {
 	@Override
 	public void remove() {
 
+	}
+
+	public static MemberResponseDTO toDTO(Member member) {
+		return MemberResponseDTO.builder()
+								.id(member.getId())
+								.nickname(member.getNickname())
+								.bloodType(member.getBloodType())
+								.build();
 	}
 }
