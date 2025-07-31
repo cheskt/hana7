@@ -15,7 +15,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 @Entity
-@Table(name="memo")
+@Table(name = "memo")
 @Getter
 @Setter
 @Builder //객체를 생성할 수 있게 처리함,
@@ -23,13 +23,13 @@ import lombok.ToString;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-@EqualsAndHashCode(callSuper=true)
+@EqualsAndHashCode(callSuper = true)
 public class Memo extends BaseEntity {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int mno;
 
-	@Column(length=200, nullable=false)
+	@Column(length = 200, nullable = false)
 	private String memoText;
 }
 

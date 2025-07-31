@@ -50,7 +50,7 @@ public class BoardController {
 	}
 
 	@PatchMapping("/{id}")
-	public BoardResponseDTO chageBoard(@PathVariable int id, @RequestBody @Validated BoardRequestDTO requestDTO) {
+	public BoardResponseDTO changeBoard(@PathVariable int id, @RequestBody @Validated BoardRequestDTO requestDTO) {
 		requestDTO.setId(id);
 		return service.changeBoard(requestDTO);
 	}

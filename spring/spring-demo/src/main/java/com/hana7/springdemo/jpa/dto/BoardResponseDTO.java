@@ -12,7 +12,7 @@ import lombok.experimental.SuperBuilder;
 public class BoardResponseDTO {
 	private int id;
 	private String title;
-	private MemberResponseDTO writer;
+	private MemberDTO writer;
 	private int hit;
 	private LocalDateTime createdAt;
 	private LocalDateTime updatedAt;

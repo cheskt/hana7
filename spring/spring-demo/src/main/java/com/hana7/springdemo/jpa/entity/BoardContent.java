@@ -1,5 +1,8 @@
 package com.hana7.springdemo.jpa.entity;
 
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.ForeignKey;
@@ -29,6 +32,7 @@ public class BoardContent extends BaseEntity {
 	@OneToOne(optional = false)
 	@JoinColumn(name = "board",
 		foreignKey = @ForeignKey(name = "fk_BoardContent_board"))
+	@OnDelete(action = OnDeleteAction.CASCADE)
 	private Board board;
 
 	public BoardContent(String content) {

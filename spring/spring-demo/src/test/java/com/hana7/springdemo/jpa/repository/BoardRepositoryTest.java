@@ -11,10 +11,12 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
+import org.springframework.test.annotation.Commit;
 
 import com.hana7.springdemo.jpa.entity.BloodType;
 import com.hana7.springdemo.jpa.entity.Board;
 import com.hana7.springdemo.jpa.entity.BoardContent;
+import com.hana7.springdemo.jpa.entity.Hashtag;
 import com.hana7.springdemo.jpa.entity.Member;
 
 // @Rollback(false)
@@ -24,6 +26,8 @@ class BoardRepositoryTest extends RepositoryTest {
 	BoardRepository repository;
 	@Autowired
 	MemberRepository memberRepository;
+	@Autowired
+	HashtagRepository hashtagRepository;
 
 	@Test
 	@Order(1)
@@ -65,5 +69,24 @@ class BoardRepositoryTest extends RepositoryTest {
 																		  .bloodType(BloodType.B)
 																		  .build()
 		));
+	}
+
+	@Test
+	@Order(3)
+	@Commit
+	void hashtagTest() {
+		Hashtag hi = hashtagRepository.save(Hashtag.builder().tag("Hi").build());
+		Hashtag hello = hashtagRepository.save(Hashtag.builder().tag("Hello").build());
+
+		Board board1 = repository.findById(1).orElseThrow();
+		Board board2 = repository.findById(2).orElseThrow();
+
+		hi.addBoard(board1);
+		hi.addBoard(board2);
+		hello.addBoard(board1);
+		hello.addBoard(board2);
+
+		hashtagRepository.findAllByBoardId(board1.getId()).forEach(this::print);
+
 	}
 }

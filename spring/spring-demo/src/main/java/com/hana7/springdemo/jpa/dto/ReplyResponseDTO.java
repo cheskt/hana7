@@ -12,7 +12,7 @@ import lombok.Setter;
 public class ReplyResponseDTO {
 	private int id;
 	private String reply;
-	private MemberResponseDTO replyer;
+	private MemberDTO replyer;
 
 	@JsonBackReference
 	private BoardResponseDTO board;
