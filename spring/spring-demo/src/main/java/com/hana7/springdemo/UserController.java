@@ -1,6 +1,5 @@
 package com.hana7.springdemo;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.validation.annotation.Validated;
@@ -16,11 +15,13 @@ import org.springframework.web.bind.annotation.RestController;
 import com.hana7.springdemo.dto.User;
 import com.hana7.springdemo.service.UserService;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.log4j.Log4j2;
 
 @RestController
 @RequestMapping("/users")
 @Log4j2
+@Tag(name = "사용자 APIs", description = "사용자 목록/등록/수정/삭제")
 public class UserController {
 	private final UserService service;
 
@@ -29,25 +30,16 @@ public class UserController {
 	}
 
 	@PostMapping("")
+	@Tag(name = "사용자 가입")
 	public User registry(@RequestBody @Validated User user) {
 		log.debug("user={}", user);
-		// user.setId(100);
-		service.createUser(user);
+		service.save(user);
 		return user;
 	}
 
 	@GetMapping("")
 	public List<User> findAll() {
-		List<User> list = new ArrayList<>();
-		for (int i = 0; i < 5; i++) {
-			list.add(User.builder()
-						 .id(i + 1)
-						 .name("Guest")
-						 .email("abc" + i + "@gmail.com")
-						 .mobile("010-2222-333" + i)
-						 .build());
-		}
-		return list;
+		return service.getUsers();
 	}
 
 	@GetMapping("/{id}")
@@ -55,22 +47,18 @@ public class UserController {
 		log.info("GET={}", id);
 
 		return service.getUser(id);
-		// return User.builder()
-		// 	.id(id)
-		// 	.name("Guest")
-		// 	.email("abc@gmail.com")
-		// 	.mobile("010-2222-3333")
-		// 	.build();
 	}
 
 	@PatchMapping("/{id}")
 	public User updateUser(@PathVariable("id") Integer id, @RequestBody @Validated User user) {
 		user.setId(id);
+		service.save(user);
 		return user;
 	}
 
 	@DeleteMapping("/{id}")
 	public int deleteUser(@PathVariable("id") Integer id) {
-		return id % 2;
+		service.remove(id);
+		return id;
 	}
 }

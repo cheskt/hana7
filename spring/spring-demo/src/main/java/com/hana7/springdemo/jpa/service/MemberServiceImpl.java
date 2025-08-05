@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 import com.hana7.springdemo.jpa.dao.MemberDAO;
 import com.hana7.springdemo.jpa.dto.MemberDTO;
 import com.hana7.springdemo.jpa.dto.MemberDetailResponseDTO;
+import com.hana7.springdemo.jpa.dto.MemberImageDTO;
 import com.hana7.springdemo.jpa.dto.MemberResponseDTO;
 import com.hana7.springdemo.jpa.dto.SearchCond;
 import com.hana7.springdemo.jpa.entity.Member;
@@ -53,7 +54,7 @@ public class MemberServiceImpl implements MemberService {
 								.build();
 	}
 
-	private static MemberDTO toDetailDTO(Member member) {
+	static MemberDTO toDetailDTO(Member member) {
 		return MemberDetailResponseDTO.builder()
 									  .id(member.getId())
 									  .nickname(member.getNickname())
@@ -61,6 +62,12 @@ public class MemberServiceImpl implements MemberService {
 									  .bloodType(member.getBloodType())
 									  .auth(member.getAuth())
 									  .boards(member.getBoards().stream().map(BoardServiceImpl::toDetailDTO).toList())
+									  .images(member.getImages().stream().map(MemberImageDTO::new).toList())
 									  .build();
+	}
+
+	@Override
+	public void uploadImages(Long memberId, List<MemberImageDTO> upfiles) {
+		dao.uploadImages(memberId, upfiles.stream().map(MemberImageDTO::toEntity).toList());
 	}
 }
