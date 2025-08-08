@@ -46,7 +46,8 @@ import lombok.extern.slf4j.Slf4j;
 @RequestMapping("/members")
 @RequiredArgsConstructor
 @Slf4j
-public class MemberController {
+public class
+MemberController {
 	private final MemberService service;
 
 	@Value("${upload.path}")
