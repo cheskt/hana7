@@ -31,9 +31,9 @@ public class MemberImageDTO {
 
 	public MemberImage toEntity() {
 		return MemberImage.builder()
-						  .orgname(orgname)
-						  .savename(savename)
-						  .savedir(savedir)
-						  .build();
+			.orgname(orgname)
+			.savename(savename)
+			.savedir(savedir)
+			.build();
 	}
 }

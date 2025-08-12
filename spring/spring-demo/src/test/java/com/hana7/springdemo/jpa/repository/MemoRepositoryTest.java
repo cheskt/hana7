@@ -63,8 +63,8 @@ class MemoRepositoryTest extends RepositoryTest {
 	@Order(2)
 	void add100Test() {
 		List<Memo> list = Stream.iterate(1, n -> n + 1).limit(100)
-								.map(n -> Memo.builder().memoText("Text" + n).build())
-								.toList();
+			.map(n -> Memo.builder().memoText("Text" + n).build())
+			.toList();
 
 		repository.saveAll(list);
 
@@ -125,9 +125,9 @@ class MemoRepositoryTest extends RepositoryTest {
 		memo5s.forEach(this::print);
 
 		repository.findAll(
-					  QMemo.memo.mno.goe(60)
-									.and(QMemo.memo.memoText.contains("5")))
-				  .forEach(this::print);
+			QMemo.memo.mno.goe(60)
+				.and(QMemo.memo.memoText.contains("5")))
+			.forEach(this::print);
 
 		BooleanBuilder bb = new BooleanBuilder();
 		// BooleanExpression over60 = QMemo.memo.mno.goe(60);

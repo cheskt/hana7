@@ -31,7 +31,7 @@ public class MemberServiceImpl implements MemberService {
 		}
 
 		return members.stream()
-					  .map(MemberServiceImpl::toDTO).toList();
+			.map(MemberServiceImpl::toDTO).toList();
 	}
 
 	@Override
@@ -45,29 +45,29 @@ public class MemberServiceImpl implements MemberService {
 		return dao.remove(id);
 	}
 
+	@Override
+	public void uploadImages(Long memberId, List<MemberImageDTO> upfiles) {
+		dao.uploadImages(memberId, upfiles.stream().map(MemberImageDTO::toEntity).toList());
+	}
+
 	public static MemberDTO toDTO(Member member) {
 		return MemberResponseDTO.builder()
-								.id(member.getId())
-								.nickname(member.getNickname())
-								.email(member.getEmail())
-								.bloodType(member.getBloodType())
-								.build();
+			.id(member.getId())
+			.nickname(member.getNickname())
+			.email(member.getEmail())
+			.bloodType(member.getBloodType())
+			.build();
 	}
 
 	static MemberDTO toDetailDTO(Member member) {
 		return MemberDetailResponseDTO.builder()
-									  .id(member.getId())
-									  .nickname(member.getNickname())
-									  .email(member.getEmail())
-									  .bloodType(member.getBloodType())
-									  .auth(member.getAuth())
-									  .boards(member.getBoards().stream().map(BoardServiceImpl::toDetailDTO).toList())
-									  .images(member.getImages().stream().map(MemberImageDTO::new).toList())
-									  .build();
-	}
-
-	@Override
-	public void uploadImages(Long memberId, List<MemberImageDTO> upfiles) {
-		dao.uploadImages(memberId, upfiles.stream().map(MemberImageDTO::toEntity).toList());
+			.id(member.getId())
+			.nickname(member.getNickname())
+			.email(member.getEmail())
+			.bloodType(member.getBloodType())
+			.auth(member.getAuth())
+			.boards(member.getBoards().stream().map(BoardServiceImpl::toDetailDTO).toList())
+			.images(member.getImages().stream().map(MemberImageDTO::new).toList())
+			.build();
 	}
 }

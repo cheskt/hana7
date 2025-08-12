@@ -30,17 +30,17 @@ class MemberControllerTest {
 	@Order(2)
 	void deleteTest() throws Exception {
 		mockMvc.perform(delete("/members/2"))
-			   .andExpect(status().isOk())
-			   .andExpect(content().string("1"))
-			   .andDo(print());
+			.andExpect(status().isOk())
+			.andExpect(content().string("1"))
+			.andDo(print());
 	}
 
 	@Test
 	@Order(3)
 	void deleteNotFoundTest() throws Exception {
 		mockMvc.perform(delete("/members/99999"))
-			   .andExpect(status().isNotFound())
-			   .andDo(print());
+			.andExpect(status().isNotFound())
+			.andDo(print());
 	}
 
 	@Test
@@ -49,13 +49,13 @@ class MemberControllerTest {
 	void listTest() throws Exception {
 		int size = 2;
 		mockMvc.perform(get("/members")
-				   .param("page", "1")
-				   .param("size", String.valueOf(size))
-			   ).andExpect(status().isOk())
-			   .andExpect(jsonPath("$.length()").value(size))
-			   .andExpect(jsonPath("$[0].id").value(2))
-			   .andExpect(jsonPath("$[1].id").value(1))
-			   .andExpect(jsonPath("$[1].nickname").value("hongx"))
-			   .andDo(print());
+				.param("page", "1")
+				.param("size", String.valueOf(size))
+			).andExpect(status().isOk())
+			.andExpect(jsonPath("$.length()").value(size))
+			.andExpect(jsonPath("$[0].id").value(2))
+			.andExpect(jsonPath("$[1].id").value(1))
+			.andExpect(jsonPath("$[1].nickname").value("hongx"))
+			.andDo(print());
 	}
 }

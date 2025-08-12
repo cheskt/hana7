@@ -19,6 +19,7 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -46,13 +47,13 @@ import lombok.extern.slf4j.Slf4j;
 @RequestMapping("/members")
 @RequiredArgsConstructor
 @Slf4j
-public class
-MemberController {
+public class MemberController {
 	private final MemberService service;
 
 	@Value("${upload.path}")
 	private String uploadPath = "src/main/resources";
 
+	@PreAuthorize("hasAnyRole('ROLE_USER', 'ROLE_ADMIN')")
 	@GetMapping()
 	@Tag(name = "회원 목록", description = "회원 페이징 목록")
 	@Operation(summary = "/members?page=1...", description = "회원목록")
@@ -62,7 +63,7 @@ MemberController {
 				"page": 1,
 				"size": 5,
 				"searchNickname": "x",
-				"searchEmail:: null,
+				"searchEmail": null,
 				"sortField": "id",
 				"sortDirection" : "asc"
 			}
@@ -72,6 +73,7 @@ MemberController {
 		return service.findAll(searchCond);
 	}
 
+	@PreAuthorize("hasAnyRole('ROLE_MANAGER')")
 	@GetMapping("{id}")
 	@Tag(name = "회원 상세")
 	@Operation(summary = "/members/2", description = "회원 작성된 글 포함")
@@ -113,10 +115,10 @@ MemberController {
 					}
 
 					upfiles.add(MemberImageDTO.builder()
-											  .orgname(orgFname)
-											  .savename(savedFname)
-											  .savedir(savedir)
-											  .build());
+						.orgname(orgFname)
+						.savename(savedFname)
+						.savedir(savedir)
+						.build());
 
 				} catch (IOException e) {
 					log.error(e.getMessage());

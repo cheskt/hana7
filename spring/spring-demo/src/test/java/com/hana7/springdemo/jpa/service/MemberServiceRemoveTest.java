@@ -20,22 +20,22 @@ public class MemberServiceRemoveTest {
 
 	public static Member getMemberEntity() {
 		return Member.builder()
-					 .id(1L)
-					 .nickname("Hong")
-					 .email("hong@gmail.com")
-					 .bloodType(BloodType.B)
-					 .build();
+			.id(1L)
+			.nickname("Hong")
+			.email("hong@gmail.com")
+			.bloodType(BloodType.B)
+			.build();
 	}
 
 	@Test
 	void listTest() {
 		Member member = getMemberEntity();
 		SearchCond searchCond = SearchCond.builder()
-										  .page(1).size(2)
-										  .build();
+			.page(1).size(2)
+			.build();
 		Mockito.when(dao.findAll(searchCond.getPager()))
-			   .thenReturn(List.of(member, member));
-
+			.thenReturn(List.of(member, member));
+		
 		List<MemberDTO> list = service.findAll(searchCond);
 		System.out.println("list = " + list);
 		Assertions.assertEquals(2, list.size());

@@ -28,11 +28,11 @@ class ReplyRepositoryTest extends RepositoryTest {
 		long preCount = repository.countByBoard(board);
 		repository.saveAll(
 			Stream.iterate(1, n -> n + 1).limit(10)
-				  .map(n -> Reply.builder()
-								 .reply("Reply" + n)
-								 .replyer(board.getWriter())
-								 .board(board)
-								 .build()).toList()
+				.map(n -> Reply.builder()
+					.reply("Reply" + n)
+					.replyer(board.getWriter())
+					.board(board)
+					.build()).toList()
 		);
 		assertEquals(preCount + 10, repository.countByBoard(board));
 	}
@@ -66,9 +66,9 @@ class ReplyRepositoryTest extends RepositoryTest {
 		Optional<Board> optionalBoard = boardRepository.findById(1);
 
 		return optionalBoard.orElseGet(() -> boardRepository.save(Board.builder()
-																	   .title("Title01")
-																	   .writer(null)
-																	   .build()));
+			.title("Title01")
+			.writer(null)
+			.build()));
 
 	}
 }

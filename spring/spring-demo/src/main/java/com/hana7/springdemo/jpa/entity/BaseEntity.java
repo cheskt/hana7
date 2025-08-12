@@ -1,5 +1,6 @@
 package com.hana7.springdemo.jpa.entity;
 
+import java.time.Instant;
 import java.time.LocalDateTime;
 
 import org.hibernate.annotations.CreationTimestamp;
@@ -12,8 +13,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-@Getter
-@ToString
+@Getter @ToString
 @MappedSuperclass
 @NoArgsConstructor
 @AllArgsConstructor

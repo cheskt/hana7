@@ -21,9 +21,9 @@ import com.hana7.springdemo.jpa.repository.MemberRepository;
 
 class BoardServiceTest {
 	private static final BoardRequestDTO dto = BoardRequestDTO.builder()
-															  .title("Title")
-															  .writer(1L)
-															  .build();
+		.title("Title")
+		.writer(1L)
+		.build();
 	// private static final BoardResponseDTO responseDto = BoardResponseDTO.builder()
 	// 	.title("title")
 	// 	.writer(MemberDTO.builder().id(1L).nickname("Hong").build())
@@ -31,10 +31,10 @@ class BoardServiceTest {
 	private final static Member member = MemberServiceRemoveTest.getMemberEntity();
 	private final static Board board =
 		Board.builder()
-			 .title("Title")
-			 .writer(member)
-			 .content(new BoardContent("Content"))
-			 .build();
+			.title("Title")
+			.writer(member)
+			.content(new BoardContent("Content"))
+			.build();
 
 	private final BoardRepository repository = Mockito.mock(BoardRepository.class);
 	private final MemberRepository memberRepository = Mockito.mock(MemberRepository.class);
@@ -43,7 +43,7 @@ class BoardServiceTest {
 	@Test
 	void boardListTest() {
 		Mockito.when(repository.findAll(ArgumentMatchers.any(Pageable.class)))
-			   .thenReturn(new PageImpl<>(List.of(board, board)));
+			.thenReturn(new PageImpl<>(List.of(board, board)));
 
 		List<BoardResponseDTO> pageList = service.getPageList(1, 2);
 		System.out.println("pageList = " + pageList);

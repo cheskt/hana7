@@ -66,46 +66,46 @@ public class BoardServiceImpl implements BoardService {
 
 	public static BoardResponseDTO toDTO(Board board) {
 		return BoardResponseDTO.builder()
-							   .id(board.getId())
-							   .title(board.getTitle())
-							   .writer(MemberServiceImpl.toDTO(board.getWriter()))
-							   .hit(board.getHit())
-							   .createdAt(board.getCreatedAt())
-							   .updatedAt(board.getUpdatedAt())
-							   .build();
+			.id(board.getId())
+			.title(board.getTitle())
+			.writer(MemberServiceImpl.toDTO(board.getWriter()))
+			.hit(board.getHit())
+			.createdAt(board.getCreatedAt())
+			.updatedAt(board.getUpdatedAt())
+			.build();
 	}
 
 	public static BoardDetailResponseDTO toDetailDTO(Board board) {
 		return BoardDetailResponseDTO.builder()
-									 .id(board.getId())
-									 .title(board.getTitle())
-									 .writer(MemberServiceImpl.toDTO(board.getWriter()))
-									 .hit(board.getHit())
-									 .content(board.getContent().getContent())
-									 .createdAt(board.getCreatedAt())
-									 .updatedAt(board.getUpdatedAt())
-									 .replies(board.getReplies().stream()
-												   .map(BoardServiceImpl::toReplyDTO)
-												   .toList()
-									 )
-									 .build();
+			.id(board.getId())
+			.title(board.getTitle())
+			.writer(MemberServiceImpl.toDTO(board.getWriter()))
+			.hit(board.getHit())
+			.content(board.getContent().getContent())
+			.createdAt(board.getCreatedAt())
+			.updatedAt(board.getUpdatedAt())
+			.replies(board.getReplies().stream()
+				.map(BoardServiceImpl::toReplyDTO)
+				.toList()
+			)
+			.build();
 	}
 
 	public static ReplyResponseDTO toReplyDTO(Reply reply) {
 		return ReplyResponseDTO.builder()
-							   .id(reply.getId())
-							   .reply(reply.getReply())
-							   .replyer(MemberServiceImpl.toDTO(reply.getReplyer()))
-							   .board(toDTO(reply.getBoard()))
-							   .build();
+			.id(reply.getId())
+			.reply(reply.getReply())
+			.replyer(MemberServiceImpl.toDTO(reply.getReplyer()))
+			.board(toDTO(reply.getBoard()))
+			.build();
 	}
 
 	private Board toEntity(BoardRequestDTO dto) {
 		return Board.builder()
-					.id(dto.getId())
-					.title(dto.getTitle())
-					.writer(getMember(dto.getWriter()))
-					.build();
+			.id(dto.getId())
+			.title(dto.getTitle())
+			.writer(getMember(dto.getWriter()))
+			.build();
 	}
 
 	private Member getMember(long memberId) {

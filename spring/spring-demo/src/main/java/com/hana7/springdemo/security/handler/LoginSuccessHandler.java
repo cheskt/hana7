@@ -8,7 +8,6 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.hana7.springdemo.jpa.dto.SubscriberDTO;
 import com.hana7.springdemo.security.JwtUtil;
 
 import jakarta.servlet.ServletException;
@@ -22,10 +21,7 @@ public class LoginSuccessHandler implements AuthenticationSuccessHandler {
 		Authentication authentication) throws IOException, ServletException {
 		System.out.println("** SuccessHandler = " + authentication);
 
-		SubscriberDTO dto = (SubscriberDTO)authentication.getPrincipal();
-		Map<String, Object> claims = dto.getClaims();
-		claims.put("accessToken", JwtUtil.generateToken(claims, 10));
-		claims.put("refreshToken", JwtUtil.generateToken(claims, 60 * 24));
+		Map<String, Object> claims = JwtUtil.authenticationToClaims(authentication);
 
 		ObjectMapper objectMapper = new ObjectMapper();
 		response.setContentType("application/json; charset=UTF-8");

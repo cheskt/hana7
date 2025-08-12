@@ -35,12 +35,12 @@ class BoardRepositoryTest extends RepositoryTest {
 		long preCount = repository.count();
 
 		List<Board> list = Stream.iterate(1, n -> n + 1)
-								 .limit(LIMIT)
-								 .map(n -> Board.builder()
-												.title("Title" + n)
-												.writer(getMember())
-												.build())
-								 .toList();
+			.limit(LIMIT)
+			.map(n -> Board.builder()
+				.title("Title" + n)
+				.writer(getMember())
+				.build())
+			.toList();
 
 		list.forEach(b -> b.setContent(new BoardContent("xxx", b)));
 
@@ -64,10 +64,10 @@ class BoardRepositoryTest extends RepositoryTest {
 		Optional<Member> memberOptional = memberRepository.findById(1L);
 
 		return memberOptional.orElseGet(() -> memberRepository.save(Member.builder()
-																		  .nickname("Hongxxx")
-																		  .email("hongxxxx@gmail.com")
-																		  .bloodType(BloodType.B)
-																		  .build()
+			.nickname("Hongxxx")
+			.email("hongxxxx@gmail.com")
+			.bloodType(BloodType.B)
+			.build()
 		));
 	}
 

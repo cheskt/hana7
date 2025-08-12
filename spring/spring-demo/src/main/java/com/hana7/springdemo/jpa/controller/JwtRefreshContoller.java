@@ -10,7 +10,7 @@ import com.hana7.springdemo.security.JwtUtil;
 import com.hana7.springdemo.security.exception.CustomJwtException;
 
 @RestController
-public class JwtRefreshController {
+public class JwtRefreshContoller {
 	@RequestMapping("/api/subscriber/refresh")
 	public Map<String, Object> refresh(@RequestHeader("Authorization") String authHeader, String refreshToken) {
 		if (refreshToken == null)

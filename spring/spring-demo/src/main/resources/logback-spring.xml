@@ -48,7 +48,7 @@
     </appender>
 
     <!-- 패키지별 Logger 설정 -->
-    <logger name="com.hana7.springdemo.jpa.controller" level="INFO" additivity="false">
+    <logger name="com.hana.springdemo.jpa.controller" level="INFO" additivity="false">
         <appender-ref ref="PRODUCT_FILE"/>
         <appender-ref ref="CONSOLE"/>
     </logger>

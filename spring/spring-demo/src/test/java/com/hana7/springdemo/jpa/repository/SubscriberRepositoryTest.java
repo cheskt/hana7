@@ -29,16 +29,15 @@ class SubscriberRepositoryTest {
 	void addTest() {
 		int limit = 5;
 		List<Subscriber> roleList = Stream.iterate(1, n -> n + 1).limit(limit)
-										  .map(n -> Subscriber.builder()
-															  .email(n + "@gmail.com")
-															  .nickname("sub" + n)
-															  .pwd(passwordEncoder.encode("pwd" + n))
-															  .social(false)
-															  .build()
-															  .addRole(SubscriberRole.ROLE_USER)
-															  .addRole(n > 3 ? SubscriberRole.ROLE_ADMIN :
-																  SubscriberRole.ROLE_MANAGER)
-										  ).toList();
+			.map(n -> Subscriber.builder()
+				.email(n + "@gmail.com")
+				.nickname("sub" + n)
+				.pwd(passwordEncoder.encode("pwd" + n))
+				.social(false)
+				.build()
+				.addRole(SubscriberRole.ROLE_USER)
+				.addRole(n > 3 ? SubscriberRole.ROLE_ADMIN : SubscriberRole.ROLE_MANAGER)
+			).toList();
 
 		repository.saveAll(roleList);
 

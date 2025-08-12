@@ -19,11 +19,11 @@ import com.hana7.springdemo.jpa.entity.Member;
 class MemberServiceTest {
 	private static final Long memberId = 1L;
 	private static final Member member = Member.builder()
-											   .id(1L)
-											   .nickname("Hong")
-											   .email("hong@gmail.com")
-											   .bloodType(BloodType.B)
-											   .build();
+		.id(1L)
+		.nickname("Hong")
+		.email("hong@gmail.com")
+		.bloodType(BloodType.B)
+		.build();
 
 	@MockitoBean
 	MemberDAO dao;
@@ -55,9 +55,9 @@ class MemberServiceTest {
 		assertEquals(memberDTO.getNickname(), member.getNickname());
 
 		assertEquals(memberDTO, MemberDTO.builder().id(member.getId())
-										 .nickname(member.getNickname())
-										 .email(member.getEmail())
-										 .bloodType(member.getBloodType()).build());
+			.nickname(member.getNickname())
+			.email(member.getEmail())
+			.bloodType(member.getBloodType()).build());
 
 		assertEquals(memberDTO, MemberServiceImpl.toDetailDTO(member));
 	}

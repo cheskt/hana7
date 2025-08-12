@@ -16,6 +16,9 @@ public class BoardRequestDTO {
 	@Size(min = 1, max = 40)
 	private String title;
 
+	// @NotBlank
+	// @Size(min = 1, max = 30)
+	// private String writer;
 	private long writer;
 
 	@NotBlank

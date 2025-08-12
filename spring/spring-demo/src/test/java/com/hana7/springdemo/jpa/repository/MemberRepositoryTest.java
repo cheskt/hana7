@@ -25,14 +25,14 @@ class MemberRepositoryTest extends RepositoryTest {
 	void imagesTest() {
 		Member mbr = repository.findById(1L).orElseThrow();
 		List<MemberImage> images = Stream.iterate(1, n -> n + 1)
-										 .limit(5)
-										 .map(n -> MemberImage.builder()
-															  .orgname("orgname" + n)
-															  .savename("savename" + n)
-															  .savedir("2025/08/05")
-															  .member(mbr)
-															  .build()
-										 ).toList();
+			.limit(5)
+			.map(n -> MemberImage.builder()
+				.orgname("orgname" + n)
+				.savename("savename" + n)
+				.savedir("2025/08/05")
+				.member(mbr)
+				.build()
+			).toList();
 
 		mbr.setImages(images);
 	}
